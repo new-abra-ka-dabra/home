@@ -1,5 +1,10 @@
-
-<svg version="1.1" id="brand-logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 24.8 28" style="enable-background:new 0 0 24.8 28;" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+export default function RealmeIcon({
+  className = ""
+}: {
+  className?: string;
+}) {
+  return (
+    <svg version="1.1" id="brand-logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 24.8 28" style="enable-background:new 0 0 24.8 28;" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
     <g>
         <g>
             <g id="XMLID_28_">
@@ -13,3 +18,5 @@
         </g>
     </g>
 </svg>
+  );
+}
