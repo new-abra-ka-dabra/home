@@ -5,6 +5,8 @@ export default function ItelIcon({
 }) {
   return (
     <svg
+      width="30"
+      height"15"
       viewBox="0 0 30 15"
       className={className}
       fill="none"
