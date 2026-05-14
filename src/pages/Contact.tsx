@@ -92,7 +92,7 @@ export default function Contact() {
             <img
               src={`${import.meta.env.BASE_URL}logo.png`}
               alt="New Abra Ka Dabra Logo"
-              className="w-full h-full object-contain"
+              className="w-4/5 h-4/5 object-contain"
               data-testid="img-logo-contact"
             />
           </div>
