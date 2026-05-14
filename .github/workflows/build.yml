@@ -8,6 +8,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      npm_config_build_from_source: true
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -18,8 +21,11 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: Install dependencies
-        run: npm install
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Clean install
+        run: npm ci
 
       - name: Clean old build folder
         run: rm -rf abradabra
@@ -27,12 +33,12 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Move build to abradabra folder
+      - name: Move build output
         run: |
           mkdir -p abradabra
           cp -r dist/* abradabra/
 
-      - name: Upload build artifact
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: abradabra-build
