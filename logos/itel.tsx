@@ -13,6 +13,5 @@ export default function Itel({
 <path d="M20.8 6.5H17.6L17.1 9.4H20.2L20.8 6.5Z" fill="white"/>
 <path d="M20 10.6H16.8L14.7 21.2H17.9L20 10.6Z" fill="white"/>
 </svg>
-
   );
 }
