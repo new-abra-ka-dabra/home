@@ -8,7 +8,7 @@ import { Phone, MapPin, ChevronRight, Smartphone, Zap, Shield, Headphones } from
 import BrandLogo from "@/components/BrandLogo";
 import RealmeIcon from "../../logos/realme";
 import Spigen from "../../logos/spigen";
-import Itel from "../../logos/itel";
+import ItelIcon from "../../logos/itel";
 
 const brands = [
   { name: "Apple",    icon: SiApple,    color: "#e0e0e0" },
@@ -20,7 +20,7 @@ const brands = [
   { name: "Sony",     icon: SiSony,     color: "#cccccc" },
   { name: "Realme",   icon: RealmeIcon,  color: "#e8e8e8" },
   { name: "Nokia",    icon: SiNokia,    color: "#5DADE2" },
-  { name: "Itel",     icon: Itel,  color: "#00BFFF" },
+  { name: "Itel",     icon: ItelIcon,  color: "#00BFFF" },
 ];
 
 const accessories = [
