@@ -1,21 +1,22 @@
-name: Deploy Vite App to GitHub Pages
+name: Build Abradabra Folder
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
 
 permissions:
   contents: write
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -24,11 +25,19 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Delete old abradabra build
+        run: rm -rf abradabra
+
       - name: Build project
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./abradabra
+      - name: Commit updated abradabra folder
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add abradabra
+
+          git diff --staged --quiet || git commit -m "Update abradabra build [skip ci]"
+
+          git push
