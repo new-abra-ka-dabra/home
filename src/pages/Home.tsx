@@ -7,6 +7,7 @@ import {
 import { Phone, MapPin, ChevronRight, Smartphone, Zap, Shield, Headphones } from "lucide-react";
 import BrandLogo from "@/components/BrandLogo";
 import RealmeIcon from "../../logos/realme";
+import Spigen from "../../logos/spigen";
 
 const brands = [
   { name: "Apple",    icon: SiApple,    color: "#e0e0e0" },
@@ -23,7 +24,7 @@ const brands = [
 
 const accessories = [
   { name: "Stuffcool",  icon: undefined, color: "#FF6B35" },
-  { name: "Spigen",     icon: undefined, color: "#e0e0e0" },
+  { name: "Spigen",     icon: Spigen, color: "#e0e0e0" },
   { name: "Portronics", icon: undefined, color: "#00C4CC" },
   { name: "Boat",       icon: SiBoat,    color: "#E63946" },
   { name: "Bose",       icon: SiBose,    color: "#d4af37" },
