@@ -73,7 +73,7 @@ function parseAccessoriesPlugin() {
 }
 
 export default defineConfig({
-  base: "./",
+  base: "/home/",
   plugins: [parseAccessoriesPlugin(), react(), tailwindcss()],
   resolve: {
     alias: {
