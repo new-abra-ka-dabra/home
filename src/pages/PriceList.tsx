@@ -13,8 +13,6 @@ import {
 import type { LucideIcon } from "lucide-react";
 import BrandLogo from "@/components/BrandLogo";
 import accData from "@/data/accessories.json";
-import RealmeIcon from "../../logos/realme";
-import ItelIcon from "../../logos/itel";
 
 // ── Types ────────────────────────────────────────────────────
 interface TableData {
@@ -33,9 +31,9 @@ const MOBILE_BRANDS = [
   { name: "Motorola", slug: "motorola", icon: SiMotorola, color: "#5DADE2" },
   { name: "Vivo",     slug: "vivo",     icon: SiVivo,     color: "#415FFF" },
   { name: "Sony",     slug: "sony",     icon: SiSony,     color: "#cccccc" },
-  { name: "Realme",   slug: "realme",   icon: RealmeIcon,  color: "#FF6900" },
+  { name: "Realme",   slug: "realme",   icon: undefined,  color: "#FF6900" },
   { name: "Nokia",    slug: "nokia",    icon: SiNokia,    color: "#5DADE2" },
-  { name: "Itel",     slug: "itel",     icon: Itel,  color: "#00BFFF" },
+  { name: "Itel",     slug: "itel",     icon: undefined,  color: "#00BFFF" },
 ] as const;
 
 const ACC_BRAND = {
