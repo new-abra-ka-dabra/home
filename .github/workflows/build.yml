@@ -1,0 +1,39 @@
+name: Build Vite App
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Clean old build folder
+        run: rm -rf abradabra
+
+      - name: Build project
+        run: npm run build
+
+      - name: Move build to abradabra folder
+        run: |
+          mkdir -p abradabra
+          cp -r dist/* abradabra/
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: abradabra-build
+          path: abradabra
