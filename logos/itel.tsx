@@ -1,4 +1,4 @@
-export default function RealmeIcon({
+export default function Itel({
   className = ""
 }: {
   className?: string;
