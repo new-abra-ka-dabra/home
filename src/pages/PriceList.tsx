@@ -291,19 +291,3 @@ export default function PriceList() {
             )}
           </div>
         )}
-
-        {/* Upload guide */}
-        <div
-          className="mt-8 rounded-2xl p-4 text-center"
-          style={{ background: "hsl(45 75% 50% / 0.04)", border: "1px solid hsl(45 75% 50% / 0.1)" }}
-        >
-          <p className="text-[11px] text-muted-foreground leading-relaxed">
-            <span className="text-[hsl(45_75%_62%)] font-medium">To update prices</span> — upload XLS files to{" "}
-            <span className="text-[hsl(45_75%_62%)]">github.com/new-abra-ka-dabra/home</span> in the{" "}
-            <code className="text-[hsl(45_75%_62%)]">pricelist/</code> folder
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-}
