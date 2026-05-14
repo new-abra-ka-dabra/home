@@ -82,7 +82,7 @@ export default function Contact() {
         {/* Logo + Title */}
         <div className="text-center mb-10">
           <div
-            className="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden items-center justify-center mx-auto mb-5"
+            className="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden mx-auto mb-5 flex items-center justify-center"
             style={{
               border: "2px solid hsl(45 75% 50% / 0.5)",
               boxShadow: "0 0 24px hsl(45 75% 50% / 0.2)",
@@ -119,12 +119,12 @@ export default function Contact() {
             const inner = (
               <div
                 className="gold-border-glow bg-card rounded-2xl flex items-start gap-4 px-4 sm:px-5 py-4 brand-card"
-                style={{ animationDelay: `${i * 70}ms` }}
+                style={{ animationDelay: ${i * 70}ms }}
               >
                 <div
                   className="mt-0.5 w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0"
                   style={{
-                    background: "linear-gradient(135deg,hsl(45 75% 16%),hsl(45 75% 26%))",
+background: "linear-gradient(135deg,hsl(45 75% 16%),hsl(45 75% 26%))",
                   }}
                 >
                   <Icon className="w-4 h-4 text-[hsl(45_75%_62%)]" />
