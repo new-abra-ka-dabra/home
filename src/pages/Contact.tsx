@@ -1,6 +1,7 @@
 import { useLocation } from "wouter";
 import { Phone, Mail, MapPin, ArrowLeft, Clock, PhoneCall } from "lucide-react";
 import { SiInstagram, SiWhatsapp } from "react-icons/si";
+import BrandLogo from "@/components/BrandLogo";
 
 const contactItems = [
   {
