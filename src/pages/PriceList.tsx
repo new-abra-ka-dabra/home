@@ -683,32 +683,6 @@ export default function PriceList() {
             )}
           </div>
         )}
-
-        {/* Info footer */}
-        <div
-          className="mt-8 rounded-2xl p-4 text-center"
-          style={{
-            background: "hsl(45 75% 50% / 0.04)",
-            border: "1px solid hsl(45 75% 50% / 0.1)",
-          }}
-        >
-          <p className="text-[11px] text-muted-foreground leading-relaxed">
-            <span className="text-[hsl(45_75%_62%)] font-medium">
-              To update phone prices
-            </span>{" "}
-            — upload XLS files to the{" "}
-            <code className="text-[hsl(45_75%_62%)]">pricelist/</code> folder
-            on GitHub.{" "}
-            <span className="text-[hsl(45_75%_62%)] font-medium">
-              To update accessories
-            </span>{" "}
-            — replace{" "}
-            <code className="text-[hsl(45_75%_62%)]">
-              data/accessories.xlsx
-            </code>{" "}
-            and rebuild.
-          </p>
-        </div>
       </div>
     </div>
   );
