@@ -291,3 +291,9 @@ export default function PriceList() {
             )}
           </div>
         )}
+
+        </div>
+      </div>
+    </div>
+  );
+}
