@@ -81,7 +81,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: "abradabra",
+    outDir: "docs",
     emptyOutDir: true,
   },
   server: {
