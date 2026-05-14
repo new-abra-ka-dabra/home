@@ -119,7 +119,7 @@ export default function Contact() {
             const inner = (
               <div
                 className="gold-border-glow bg-card rounded-2xl flex items-start gap-4 px-4 sm:px-5 py-4 brand-card"
-                style={{ animationDelay: ${i * 70}ms }}
+                style={{ animationDelay: `${i * 70}ms` }}
               >
                 <div
                   className="mt-0.5 w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0"
