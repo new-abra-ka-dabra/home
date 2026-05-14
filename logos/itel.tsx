@@ -1,12 +1,11 @@
 export default function ItelIcon({
-  className = "",
-  size = 4
+  className = ""
 }: {
   className?: string;
 }) {
   return (
     <svg
-      viewBox="0 0 60 30"
+      viewBox="0 0 30 15"
       className={className}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
