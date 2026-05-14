@@ -1,4 +1,4 @@
-export default function RealmeIcon({
+export default function Spigen({
   className = ""
 }: {
   className?: string;
