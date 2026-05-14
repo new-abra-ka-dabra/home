@@ -16,7 +16,7 @@ const brands = [
   { name: "Motorola", icon: SiMotorola, color: "#5DADE2" },
   { name: "Vivo",     icon: SiVivo,     color: "#415FFF" },
   { name: "Sony",     icon: SiSony,     color: "#cccccc" },
-  { name: "Realme",   icon: <RealmeIcon />,  color: "#e8e8e8" },
+  { name: "Realme",   icon: RealmeIcon,  color: "#e8e8e8" },
   { name: "Nokia",    icon: SiNokia,    color: "#5DADE2" },
   { name: "Itel",     icon: undefined,  color: "#00BFFF" },
 ];
