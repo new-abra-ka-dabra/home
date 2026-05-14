@@ -1,6 +1,6 @@
 export default function ItelIcon({
   className = "",
-  size = 10
+  size = 4
 }: {
   className?: string;
 }) {
