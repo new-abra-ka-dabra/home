@@ -1,4 +1,4 @@
-name: Build Abradabra Folder
+name: Build Docs Folder
 
 on:
   push:
@@ -25,19 +25,19 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Delete old abradabra build
-        run: rm -rf abradabra
+      - name: Delete old docs build
+        run: rm -rf docs
 
       - name: Build project
         run: npm run build
 
-      - name: Commit updated abradabra folder
+      - name: Commit updated docs folder
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add abradabra
+          git add docs
 
-          git diff --staged --quiet || git commit -m "Update abradabra build [skip ci]"
+          git diff --staged --quiet || git commit -m "Update docs build [skip ci]"
 
           git push
