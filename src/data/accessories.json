@@ -1,0 +1,51 @@
+{
+  "headers": [
+    "Brand",
+    "Model",
+    "Colour",
+    "Price (INR)"
+  ],
+  "productTypes": [
+    "Cable",
+    "Charger",
+    "Speaker"
+  ],
+  "brands": [
+    "Apple",
+    "JBL",
+    "Samsung",
+    "boAt"
+  ],
+  "byType": {
+    "Cable": [
+      [
+        "Apple",
+        "USB-C to Lightning",
+        "White",
+        "1900"
+      ],
+      [
+        "boAt",
+        "Type-C Fast Cable",
+        "Red",
+        "499"
+      ]
+    ],
+    "Charger": [
+      [
+        "Samsung",
+        "25W Fast Charger",
+        "Black",
+        "1299"
+      ]
+    ],
+    "Speaker": [
+      [
+        "JBL",
+        "Flip 6",
+        "Blue",
+        "8999"
+      ]
+    ]
+  }
+}

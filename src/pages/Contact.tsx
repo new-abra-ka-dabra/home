@@ -124,7 +124,7 @@ export default function Contact() {
                 <div
                   className="mt-0.5 w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0"
                   style={{
-                   background: "linear-gradient(135deg,hsl(45 75% 16%),hsl(45 75% 26%))",
+                    background: "linear-gradient(135deg,hsl(45 75% 16%),hsl(45 75% 26%))",
                   }}
                 >
                   <Icon className="w-4 h-4 text-[hsl(45_75%_62%)]" />
