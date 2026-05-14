@@ -14,7 +14,7 @@ import type { LucideIcon } from "lucide-react";
 import BrandLogo from "@/components/BrandLogo";
 import accData from "@/data/accessories.json";
 import RealmeIcon from "../../logos/realme";
-import Itel from "../../logos/itel";
+import ItelIcon from "../../logos/itel";
 
 // ── Types ────────────────────────────────────────────────────
 interface TableData {
