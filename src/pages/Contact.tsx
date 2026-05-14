@@ -1,7 +1,6 @@
 import { useLocation } from "wouter";
 import { Phone, Mail, MapPin, ArrowLeft, Clock, PhoneCall } from "lucide-react";
 import { SiInstagram, SiWhatsapp } from "react-icons/si";
-import BrandLogo from "@/components/BrandLogo";
 
 const contactItems = [
   {
@@ -83,12 +82,11 @@ export default function Contact() {
         {/* Logo + Title */}
         <div className="text-center mb-10">
           <div
-            className="w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center mx-auto mb-5"
+            className="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden items-center justify-center mx-auto mb-5"
             style={{
               border: "2px solid hsl(45 75% 50% / 0.5)",
               boxShadow: "0 0 24px hsl(45 75% 50% / 0.2)",
               background: "#000",
-              padding: "10%",
             }}
           >
             <img
