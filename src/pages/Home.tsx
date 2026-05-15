@@ -25,7 +25,7 @@ const accessories = [
   { name: "Spigen",     icon: undefined, color: "#e0e0e0" },
   { name: "Portronics", icon: undefined, color: "#00C4CC" },
   { name: "Boat",       icon: SiBoat,    color: "#E63946" },
-  { name: "Bose",       icon: SiBose,    color: "#d4af37" },
+  { name: "Bose",       icon: undefined, color: "#d4af37" },
   { name: "Ambrane",    icon: undefined, color: "#7B2FBE" },
   { name: "Honeywell",  icon: undefined, color: "#e84118" },
   { name: "Digitek",    icon: undefined, color: "#2980b9" },
