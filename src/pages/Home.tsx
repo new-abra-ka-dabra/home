@@ -6,9 +6,6 @@ import {
 } from "react-icons/si";
 import { Phone, MapPin, ChevronRight, Smartphone, Zap, Shield, Headphones } from "lucide-react";
 import BrandLogo from "@/components/BrandLogo";
-import RealmeIcon from "../../logos/realme";
-import Spigen from "../../logos/spigen";
-import ItelIcon from "../../logos/itel";
 
 const brands = [
   { name: "Apple",    icon: SiApple,    color: "#e0e0e0" },
@@ -20,7 +17,7 @@ const brands = [
   { name: "Sony",     icon: SiSony,     color: "#cccccc" },
   { name: "Realme",   icon: undefined,  color: "#e8e8e8" },
   { name: "Nokia",    icon: SiNokia,    color: "#5DADE2" },
-  { name: "Itel",     icon: ItelIcon,  color: "#00BFFF" },
+  { name: "Itel",     icon: undefined,  color: "#00BFFF" },
 ];
 
 const accessories = [
@@ -30,6 +27,8 @@ const accessories = [
   { name: "Boat",       icon: SiBoat,    color: "#E63946" },
   { name: "Bose",       icon: SiBose,    color: "#d4af37" },
   { name: "Ambrane",    icon: undefined, color: "#7B2FBE" },
+  { name: "Honeywell",  icon: undefined, color: "#e84118" },
+  { name: "Digitek",    icon: undefined, color: "#2980b9" },
   { name: "Membrane",   icon: undefined, color: "#38BDF8" },
   { name: "Lito",       icon: undefined, color: "#4ADE80" },
   { name: "Neopack",    icon: undefined, color: "#FB923C" },

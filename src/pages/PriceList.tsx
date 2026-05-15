@@ -1,4 +1,4 @@
-import { useState, useCallback, useMemo, useRef } from "react";
+import React, { useState, useCallback, useMemo, useRef } from "react";
 import { read, utils } from "xlsx";
 import {
   SiApple, SiSamsung, SiXiaomi, SiGoogle, SiMotorola,
@@ -13,7 +13,6 @@ import {
 import type { LucideIcon } from "lucide-react";
 import BrandLogo from "@/components/BrandLogo";
 import accData from "@/data/accessories.json";
-import ItelIcon from "../../logos/itel";
 
 // ── Types ────────────────────────────────────────────────────
 interface TableData {
@@ -34,7 +33,7 @@ const MOBILE_BRANDS = [
   { name: "Sony",     slug: "sony",     icon: SiSony,     color: "#cccccc" },
   { name: "Realme",   slug: "realme",   icon: undefined,  color: "#FF6900" },
   { name: "Nokia",    slug: "nokia",    icon: SiNokia,    color: "#5DADE2" },
-  { name: "Itel",     slug: "itel",     icon: ItelIcon,  color: "#00BFFF" },
+  { name: "Itel",     slug: "itel",     icon: undefined,  color: "#00BFFF" },
 ] as const;
 
 const ACC_BRAND = {
@@ -99,6 +98,27 @@ function getTypeIcon(type: string): LucideIcon {
   if (t.includes("mouse")) return Mouse;
   if (t.includes("keyboard") || t.includes("keyb")) return Keyboard;
   return Package;
+}
+
+// Map accessory type → local SVG filename in public/logos/accessories/
+function getTypeImgSrc(type: string): string {
+  const t = type.toLowerCase();
+  if (t.includes("speak") || t.includes("sound"))                                           return "speaker.svg";
+  if (t.includes("cable") || t.includes("wire"))                                            return "cable.svg";
+  if (t.includes("charg") || t.includes("adapt") || t.includes("travel"))                  return "charger.svg";
+  if (t.includes("blue") || t.includes("tws") || t.includes("wireless"))                   return "earphones.svg";
+  if (t.includes("head") || t.includes("ear") || t.includes("bud"))                        return "headphones.svg";
+  if (t.includes("watch") || t.includes("smart") || t.includes("band"))                    return "smartwatch.svg";
+  if (t.includes("case") || t.includes("cover"))                                            return "case.svg";
+  if (t.includes("screen") || t.includes("glass") || t.includes("protect") ||
+      t.includes("scratch") || t.includes("guard"))                                         return "screen-protector.svg";
+  if (t.includes("power") || t.includes("bank") || t.includes("batter"))                   return "power-bank.svg";
+  if (t.includes("trip") || t.includes("stand") || t.includes("mount") ||
+      t.includes("cam"))                                                                     return "tripod.svg";
+  if (t.includes("pencil") || t.includes("stylus") || t.includes("pen"))                   return "stylus.svg";
+  if (t.includes("mouse"))                                                                   return "mouse.svg";
+  if (t.includes("keyboard") || t.includes("keyb"))                                        return "keyboard.svg";
+  return "package.svg";
 }
 
 // ── Shared price table ───────────────────────────────────────
@@ -208,7 +228,7 @@ function AccessoryTypeGrid({
       </p>
       <div className="grid grid-cols-3 gap-3 sm:gap-4">
         {types.map((type) => {
-          const Icon = getTypeIcon(type);
+          const imgSrc = `${import.meta.env.BASE_URL}logos/accessories/${getTypeImgSrc(type)}`;
           const count = byType[type]?.length ?? 0;
           return (
             <button
@@ -236,10 +256,7 @@ function AccessoryTypeGrid({
                 className="w-10 h-10 rounded-xl flex items-center justify-center"
                 style={{ background: "hsl(45 75% 50% / 0.1)" }}
               >
-                <Icon
-                  className="w-5 h-5"
-                  style={{ color: "#d4af37" }}
-                />
+                <img src={imgSrc} alt={type} className="w-6 h-6 object-contain" draggable={false} />
               </div>
               <span
                 className="text-xs font-medium text-center leading-tight"
@@ -319,7 +336,7 @@ function AccessoryTypeView({
     return rows;
   }, [rawRows, selectedBrands, priceSort, brandColIdx, priceColIdx]);
 
-  const Icon = getTypeIcon(type);
+  const typeImgSrc = `${import.meta.env.BASE_URL}logos/accessories/${getTypeImgSrc(type)}`;
   const hasFilters = selectedBrands.size > 0 || priceSort !== "none";
 
   return (
@@ -339,7 +356,7 @@ function AccessoryTypeView({
           All Types
         </button>
         <div className="flex items-center gap-2">
-          <Icon className="w-4 h-4" style={{ color: "#d4af37" }} />
+          <img src={typeImgSrc} alt={type} className="w-5 h-5 object-contain" draggable={false} />
           <h2
             className="text-sm font-serif font-semibold"
             style={{ color: "hsl(45 75% 75%)" }}
@@ -535,59 +552,69 @@ export default function PriceList() {
         >
           {ALL_BRANDS.map(({ name, slug, icon, color }) => {
             const isActive = selected === slug;
+            const isAcc = slug === "accessories";
             return (
-              <button
-                key={slug}
-                onClick={() => selectBrand(slug)}
-                className="flex-shrink-0 flex flex-col items-center gap-1.5 px-3 py-2.5 rounded-2xl transition-all"
-                style={{
-                  minWidth: "64px",
-                  background: isActive
-                    ? "hsl(45 75% 50% / 0.15)"
-                    : "hsl(0 0% 10%)",
-                  border: isActive
-                    ? "1.5px solid hsl(45 75% 50% / 0.7)"
-                    : "1.5px solid hsl(45 75% 50% / 0.12)",
-                  boxShadow: isActive
-                    ? "0 0 14px hsl(45 75% 50% / 0.18)"
-                    : "none",
-                }}
-              >
-                <div className="w-8 h-8 flex items-center justify-center flex-shrink-0">
-                  {slug === "accessories" ? (
-                    <Package
-                      className="w-5 h-5"
-                      style={{ color }}
-                    />
-                  ) : (
-                    <BrandLogo
-                      name={name}
-                      icon={
-                        icon as
-                          | React.ComponentType<{
-                              style?: React.CSSProperties;
-                            }>
-                          | undefined
-                      }
-                      color={color}
-                      size={22}
-                    />
-                  )}
-                </div>
-                <span
-                  className="text-[10px] font-medium leading-none text-center"
+              <React.Fragment key={slug}>
+
+                <button
+                  onClick={() => selectBrand(slug)}
+                  className="flex-shrink-0 flex flex-col items-center gap-1.5 px-3 py-2.5 rounded-2xl transition-all"
                   style={{
-                    color: isActive
-                      ? "hsl(45 75% 80%)"
-                      : "hsl(0 0% 65%)",
+                    minWidth: isAcc ? "84px" : "64px",
+                    background: isActive
+                      ? "hsl(45 75% 50% / 0.15)"
+                      : "hsl(0 0% 10%)",
+                    border: isActive
+                      ? "1.5px solid hsl(45 75% 50% / 0.7)"
+                      : "1.5px solid hsl(45 75% 50% / 0.12)",
+                    boxShadow: isActive
+                      ? "0 0 14px hsl(45 75% 50% / 0.18)"
+                      : "none",
                   }}
                 >
-                  {name === "Accessories" ? "Acc." : name}
-                </span>
-                {states[slug] === "loading" && (
-                  <Loader2 className="w-2.5 h-2.5 animate-spin text-[hsl(45_75%_50%)]" />
+                  <div className="w-8 h-8 flex items-center justify-center flex-shrink-0">
+                    {isAcc ? (
+                      <Package className="w-5 h-5" style={{ color }} />
+                    ) : (
+                      <BrandLogo
+                        name={name}
+                        icon={
+                          icon as
+                            | React.ComponentType<{
+                                style?: React.CSSProperties;
+                              }>
+                            | undefined
+                        }
+                        color={color}
+                        size={22}
+                      />
+                    )}
+                  </div>
+                  <span
+                    className="text-[10px] font-medium leading-none text-center"
+                    style={{
+                      color: isActive ? "hsl(45 75% 80%)" : "hsl(0 0% 65%)",
+                    }}
+                  >
+                    {name}
+                  </span>
+                  {states[slug] === "loading" && (
+                    <Loader2 className="w-2.5 h-2.5 animate-spin text-[hsl(45_75%_50%)]" />
+                  )}
+                </button>
+                {/* thin separator after Accessories tile */}
+                {isAcc && (
+                  <div
+                    className="flex-shrink-0 self-center"
+                    style={{
+                      width: "1px",
+                      height: "52px",
+                      background: "hsl(45 75% 50% / 0.35)",
+                      borderRadius: "1px",
+                    }}
+                  />
                 )}
-              </button>
+              </React.Fragment>
             );
           })}
         </div>
@@ -684,6 +711,32 @@ export default function PriceList() {
             )}
           </div>
         )}
+
+        {/* Info footer */}
+        <div
+          className="mt-8 rounded-2xl p-4 text-center"
+          style={{
+            background: "hsl(45 75% 50% / 0.04)",
+            border: "1px solid hsl(45 75% 50% / 0.1)",
+          }}
+        >
+          <p className="text-[11px] text-muted-foreground leading-relaxed">
+            <span className="text-[hsl(45_75%_62%)] font-medium">
+              To update phone prices
+            </span>{" "}
+            — upload XLS files to the{" "}
+            <code className="text-[hsl(45_75%_62%)]">pricelist/</code> folder
+            on GitHub.{" "}
+            <span className="text-[hsl(45_75%_62%)] font-medium">
+              To update accessories
+            </span>{" "}
+            — replace{" "}
+            <code className="text-[hsl(45_75%_62%)]">
+              data/accessories.xlsx
+            </code>{" "}
+            and rebuild.
+          </p>
+        </div>
       </div>
     </div>
   );

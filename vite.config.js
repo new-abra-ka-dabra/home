@@ -73,7 +73,7 @@ function parseAccessoriesPlugin() {
 }
 
 export default defineConfig({
-  base: "/home/",
+  base: "./",
   plugins: [parseAccessoriesPlugin(), react(), tailwindcss()],
   resolve: {
     alias: {
@@ -81,7 +81,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: "docs",
+    outDir: "abradabra",
     emptyOutDir: true,
   },
   server: {
