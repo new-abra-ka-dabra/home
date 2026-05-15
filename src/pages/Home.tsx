@@ -9,7 +9,7 @@ import BrandLogo from "@/components/BrandLogo";
 
 const brands = [
   { name: "Apple",    icon: SiApple,    color: "#e0e0e0" },
-  { name: "Samsung",  icon: SiSamsung,  color: "#ffffff" },
+  { name: "Samsung",  icon: undefined,  color: "#ffffff" },
   { name: "Xiaomi",   icon: SiXiaomi,   color: "#FF6900" },
   { name: "Google",   icon: SiGoogle,   color: "#4285F4" },
   { name: "Motorola", icon: SiMotorola, color: "#5DADE2" },
