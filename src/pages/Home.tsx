@@ -1,6 +1,6 @@
 import { useLocation } from "wouter";
 import {
-  SiSamsung, SiApple, SiXiaomi, SiMotorola,
+  SiApple, SiXiaomi, SiMotorola,
   SiNokia, SiSony, SiVivo, SiGoogle, SiInstagram,
   SiBoat, SiBose
 } from "react-icons/si";
