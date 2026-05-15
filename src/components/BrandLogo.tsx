@@ -8,7 +8,7 @@ interface BrandLogoProps {
 // Brands that have a real logo file in public/logos/<slug>.svg
 const LOCAL_LOGOS = new Set([
   "ambrane", "digitek", "google", "honeywell", "lito",
-  "neopack", "portronics", "realme", "spigen", "stuffcool", "itel"
+  "neopack", "portronics", "realme", "spigen", "stuffcool", "itel", "samsung"
 ]);
 
 // Fallback hand-crafted SVG wordmarks for brands without a file
