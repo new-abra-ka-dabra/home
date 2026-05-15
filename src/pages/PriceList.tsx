@@ -25,7 +25,7 @@ type PriceSort = "none" | "asc" | "desc";
 // ── Mobile brands (Accessories FIRST) ───────────────────────
 const MOBILE_BRANDS = [
   { name: "Apple",    slug: "apple",    icon: SiApple,    color: "#e0e0e0" },
-  { name: "Samsung",  slug: "samsung",  icon: SiSamsung,  color: "#ffffff" },
+  { name: "Samsung",  slug: "samsung",  icon: undefined,  color: "#ffffff" },
   { name: "Xiaomi",   slug: "mi",       icon: SiXiaomi,   color: "#FF6900" },
   { name: "Google",   slug: "google",   icon: SiGoogle,   color: "#4285F4" },
   { name: "Motorola", slug: "motorola", icon: SiMotorola, color: "#5DADE2" },
