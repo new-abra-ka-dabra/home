@@ -1,0 +1,12 @@
+{
+  "apple": {
+    "mobiles": [
+      "global",
+      "indian"
+    ],
+    "tablets": []
+  },
+  "itel": {},
+  "mi": {},
+  "nokia": {}
+}
