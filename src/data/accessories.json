@@ -3,48 +3,3821 @@
     "Brand",
     "Model",
     "Colour",
-    "Price (INR)"
+    "Price"
   ],
   "productTypes": [
-    "Cable",
+    "Bluetooth",
+    "Bluetooth Headsets",
+    "Cables",
+    "Car Charger",
     "Charger",
-    "Speaker"
+    "Hard Disks",
+    "Head Phones",
+    "Memory Cards",
+    "Mic",
+    "Mouse/Keyboard",
+    "Multi Plug",
+    "Otg",
+    "Pen Drives",
+    "Pencil",
+    "Portable Charger",
+    "Smart Watch",
+    "Speakers",
+    "Tarvel Adaptor",
+    "Telephones",
+    "Tripod",
+    "Wireless Charger"
   ],
   "brands": [
+    "Amazon",
+    "Ambrane",
     "Apple",
-    "JBL",
+    "Audio-Technica",
+    "Beetel",
+    "Belkin",
+    "Boat",
+    "Bose",
+    "Bsw004",
+    "Dell",
+    "Digitek",
+    "Evm",
+    "Fingers",
+    "Fire Bolt",
+    "Fire Boltt",
+    "Fitbit",
+    "Honeywell",
+    "Igear",
+    "Infinity",
+    "Itel",
+    "Jbl",
+    "Lenovo",
+    "Lenyes",
+    "Lexar",
+    "Logitech",
+    "Marshall",
+    "Mi",
+    "Motorola",
+    "Muvtech",
+    "Mx",
+    "Neopack",
+    "Noise",
+    "Nothing",
+    "One Plus",
+    "Panasinic",
+    "Panasonic",
+    "Panasonics",
+    "Pebble",
+    "Plantronics",
+    "Portronics",
+    "Realme",
+    "Reverb",
+    "Riversong",
     "Samsung",
-    "boAt"
+    "Sandisk",
+    "Seagate",
+    "Skullcandy",
+    "Sony",
+    "Spacething",
+    "Stuffcool",
+    "Titan",
+    "Ultra Prolink",
+    "Urban",
+    "Vibe",
+    "Vivo",
+    "Wd",
+    "Wings"
   ],
   "byType": {
-    "Cable": [
+    "Bluetooth": [
       [
         "Apple",
-        "USB-C to Lightning",
-        "White",
-        "1900"
+        "All Model Available",
+        "",
+        "Inquire"
       ],
       [
-        "boAt",
-        "Type-C Fast Cable",
+        "Samsung",
+        "Eo-Ic050 Type C",
+        "Black, Whiite",
+        "1100"
+      ],
+      [
+        "Skullcandy",
+        "Smokin Buds S2Taw-R740",
+        "Black",
+        "2600"
+      ],
+      [
+        "Sony",
+        "Wf-C510",
+        "Black, Blue, White",
+        "4485"
+      ],
+      [
+        "Vibe",
+        "Vibe Feel 301 Anc+Enc",
+        "White",
+        "1650"
+      ],
+      [
+        "Vibe",
+        "Vibe Touch Displ Anc+Enc",
+        "White",
+        "2550"
+      ],
+      [
+        "Vivo",
+        "Tws Air",
+        "Blue, White",
+        "2950"
+      ],
+      [
+        "Wings",
+        "Hypebuds 100",
+        "Black, Blue, White",
+        "1115"
+      ],
+      [
+        "Wings",
+        "Hypebuds 200",
+        "Black, Blue, White",
+        "1055"
+      ],
+      [
+        "Wings",
+        "Hypebuds 300",
+        "Black",
+        "1200"
+      ],
+      [
+        "Wings",
+        "Phantom 1000",
+        "Black",
+        "850"
+      ],
+      [
+        "Wings",
+        "Phantom 110",
+        "Black",
+        "750"
+      ],
+      [
+        "Wings",
+        "Phantom 205",
+        "Black, Grey",
+        "950"
+      ],
+      [
+        "Wings",
+        "Phantom 210",
+        "Blue",
+        "750"
+      ],
+      [
+        "Wings",
+        "Phantom 250",
+        "Blue",
+        "980"
+      ],
+      [
+        "Wings",
+        "Phantom 340",
+        "Black, White",
+        "1675"
+      ],
+      [
+        "Wings",
+        "Phantom 420",
+        "Black, Purple, White",
+        "1110"
+      ],
+      [
+        "Wings",
+        "Phantom 460",
+        "Silver",
+        "1180"
+      ],
+      [
+        "Wings",
+        "Phantom 500",
+        "Black",
+        "1055"
+      ],
+      [
+        "Wings",
+        "Phantom 760",
+        "Black",
+        "1075"
+      ],
+      [
+        "Wings",
+        "Phantom 850",
+        "Black",
+        "1235"
+      ],
+      [
+        "Wings",
+        "Spero",
+        "Black, Olive",
+        "1650"
+      ],
+      [
+        "Samsung",
+        "All Model Available",
+        "",
+        "Inquire"
+      ]
+    ],
+    "Pencil": [
+      [
+        "Apple",
+        "Pencil 1",
+        "White",
+        "9350"
+      ],
+      [
+        "Apple",
+        "Pencil 2Nd Genration",
+        "White",
+        "11550"
+      ],
+      [
+        "Apple",
+        "Pencil Pro",
+        "White",
+        "12250"
+      ],
+      [
+        "Apple",
+        "Pencil Usb-C",
+        "White",
+        "7650"
+      ],
+      [
+        "Samsung",
+        "Z Fold Spen",
+        "Black",
+        "2385"
+      ],
+      [
+        "Apple",
+        "All Model Available",
+        "",
+        "Inquire"
+      ],
+      [
+        "Mi",
+        "Redmi Focus Pen",
+        "Whiite",
+        "5790"
+      ],
+      [
+        "Mi",
+        "Redmi Smart Pen",
+        "White",
+        "4430"
+      ],
+      [
+        "Mi",
+        "Xiaomi Focus Pen Pro",
+        "White",
+        "5790"
+      ],
+      [
+        "Mi",
+        "Xiaomi Smart Pen 2Nd Gen",
+        "White",
+        "6095"
+      ],
+      [
+        "Portronics",
+        "Glide",
+        "White",
+        "955"
+      ],
+      [
+        "Portronics",
+        "Glide 2",
+        "White",
+        "1370"
+      ],
+      [
+        "Samsung",
+        "All Model Available",
+        "",
+        "Inquire"
+      ]
+    ],
+    "Bluetooth Headsets": [
+      [
+        "Boat",
+        "Airdopes 131 Pro",
+        "Black, Blue, Mint, Mint Bubblegum",
+        "1575"
+      ],
+      [
+        "Boat",
+        "Airdopes 138 Pro",
+        "Black, Blue, Mint",
+        "1375"
+      ],
+      [
+        "Boat",
+        "Airdopes 138 True Wireless",
+        "Black, Blue, Green, Ivory White",
+        "1350"
+      ],
+      [
+        "Boat",
+        "Airdopes 148",
+        "Black, Cyan Cider, White",
+        "1490"
+      ],
+      [
+        "Boat",
+        "Airdopes 170",
+        "Black, Blue",
+        "1575"
+      ],
+      [
+        "Boat",
+        "Airdopes Genesis",
+        "Black, Oceana",
+        "2005"
+      ],
+      [
+        "Boat",
+        "Airpod 138 True Wireless",
+        "Cherry Blossom",
+        "1350"
+      ],
+      [
+        "Boat",
+        "Rockerz 111",
+        "Black, Blue, Grey",
+        "1205"
+      ],
+      [
+        "Boat",
+        "Rockerz 195 Pro",
+        "Maroon Maverick",
+        "1210"
+      ],
+      [
+        "Boat",
+        "Rockerz 210 Anc",
+        "Cosmic Black",
+        "1485"
+      ],
+      [
+        "Boat",
+        "Rockerz 268",
+        "Black, Blue, Green",
+        "1340"
+      ],
+      [
+        "Boat",
+        "Rockerz 280 Anc",
+        "Oceanic Blue",
+        "1620"
+      ],
+      [
+        "Boat",
+        "Rockerz 385 V2",
+        "Black",
+        "1490"
+      ],
+      [
+        "Boat",
+        "Rockerz 450R",
+        "Hazel Beige",
+        "1705"
+      ],
+      [
+        "Boat",
+        "Rockerz Apex",
+        "Black, Classic Grey",
+        "1640"
+      ],
+      [
+        "Boat",
+        "Rockerz Bliss",
+        "Black, Blue",
+        "1370"
+      ],
+      [
+        "Boat",
+        "Rockerz Enticer",
+        "Blue",
+        "1195"
+      ],
+      [
+        "Boat",
+        "Rockerz Trinity",
+        "Black, Blue, White",
+        "1630"
+      ],
+      [
+        "Boat",
+        "Rockerz Zen Anc",
+        "Onyx Black",
+        "1485"
+      ],
+      [
+        "Fingers",
+        "Rock-N-Roll H2",
+        "Blue",
+        "1125"
+      ],
+      [
+        "Itel",
+        "T1 Pro",
+        "S Grey",
+        "1000"
+      ],
+      [
+        "Jbl",
+        "Tune 520Bt",
+        "Black",
+        "3750"
+      ],
+      [
+        "Jbl",
+        "Tune 570Bt",
+        "Blue",
+        "3350"
+      ],
+      [
+        "Mi",
+        "Super Bass Wireless Hedphone",
         "Red",
-        "499"
+        "1945"
+      ],
+      [
+        "Noise",
+        "Air Buds Pro 2",
+        "White",
+        "2765"
+      ],
+      [
+        "Noise",
+        "Buds Apex",
+        "Black, Blue, Grey",
+        "1340"
+      ],
+      [
+        "Noise",
+        "Buds Connect",
+        "Black",
+        "1695"
+      ],
+      [
+        "Noise",
+        "Buds Vs 303",
+        "Black",
+        "1690"
+      ],
+      [
+        "Noise",
+        "Buds Vs102",
+        "White",
+        "1270"
+      ],
+      [
+        "Noise",
+        "Buds Vs201 V3",
+        "Black, Green, White",
+        "1245"
+      ],
+      [
+        "Noise",
+        "Noise Pods Earbuds",
+        "Zen Beige",
+        "3055"
+      ],
+      [
+        "One Plus",
+        "Bullets Wireless Z2",
+        "Black Red, Magico Black",
+        "2100"
+      ],
+      [
+        "One Plus",
+        "Bullets Wireless Z2 Anc",
+        "Boomin Black, Green",
+        "2420"
+      ],
+      [
+        "One Plus",
+        "Bullets Wireless Z3",
+        "Mambo Midnight",
+        "1880"
+      ],
+      [
+        "One Plus",
+        "Nord Buds",
+        "Black Slate, Blue Agate, White Marble",
+        "2925"
+      ],
+      [
+        "One Plus",
+        "Nord Buds Ce",
+        "Grey, White",
+        "2600"
+      ],
+      [
+        "Portronics",
+        "Harmonics Twins 27",
+        "",
+        "1960"
+      ],
+      [
+        "Portronics",
+        "Harmonics Twins S11",
+        "Blue, White",
+        "1265"
+      ],
+      [
+        "Portronics",
+        "Harmonics Twins S3",
+        "White",
+        "1010"
+      ],
+      [
+        "Portronics",
+        "Harmonics Z3",
+        "Black",
+        "960"
+      ],
+      [
+        "Portronics",
+        "Harmonics Z5 Bt",
+        "Black, Blue",
+        "1010"
+      ],
+      [
+        "Realme",
+        "Buds T110",
+        "Black",
+        "350"
+      ],
+      [
+        "Sony",
+        "Wh-1000Xm6",
+        "Platinum Silver",
+        "34650"
+      ],
+      [
+        "Sony",
+        "Wh-Ch510",
+        "Blue",
+        "2695"
+      ],
+      [
+        "Sony",
+        "Wh-Ch520",
+        "White",
+        "4065"
+      ],
+      [
+        "Sony",
+        "Wh-Ch710N",
+        "",
+        "8610"
+      ]
+    ],
+    "Cables": [
+      [
+        "Ambrane",
+        "Act20 Type-C 2M",
+        "White",
+        "450"
+      ],
+      [
+        "Ambrane",
+        "Type C 65W Boostspeed",
+        "Black",
+        "720"
+      ],
+      [
+        "Ambrane",
+        "Usb-C To C",
+        "White",
+        "580"
+      ],
+      [
+        "Ambrane",
+        "Usb-C To Lightning",
+        "White",
+        "570"
+      ],
+      [
+        "Apple",
+        "Lightning To Usb Cable(2M)",
+        "White",
+        "1950"
+      ],
+      [
+        "Apple",
+        "Lightning To Usbcable(1M)",
+        "White",
+        "1950"
+      ],
+      [
+        "Apple",
+        "Type-C To C (2M)",
+        "White",
+        "2750"
+      ],
+      [
+        "Apple",
+        "Type-C To C (2M) 240W",
+        "White",
+        "2150"
+      ],
+      [
+        "Apple",
+        "Usb-C To C (1M)",
+        "Whiite, White",
+        "1820"
+      ],
+      [
+        "Apple",
+        "Usb-C To C (1M) 60W",
+        "Whiite, White",
+        "1750"
+      ],
+      [
+        "Apple",
+        "Usb-C To Digital Av",
+        "White",
+        "6285"
+      ],
+      [
+        "Apple",
+        "Usb-C To Lightning",
+        "White",
+        "1720"
+      ],
+      [
+        "Apple",
+        "Usb-C To Lightning 1M",
+        "White",
+        "1850"
+      ],
+      [
+        "Belkin",
+        "6+1 2M",
+        "Black",
+        "1700"
+      ],
+      [
+        "Belkin",
+        "Hdmi 1M 33Ft",
+        "Black",
+        "790"
+      ],
+      [
+        "Belkin",
+        "Hdmi 2M 66Ft",
+        "Black",
+        "880"
+      ],
+      [
+        "Digitek",
+        "Hd Lighting Cable",
+        "",
+        "565"
+      ],
+      [
+        "Fingers",
+        "Topnotch 3 In 1 Type C Hub",
+        "",
+        "1150"
+      ],
+      [
+        "Honeywell",
+        "Hdmi 1 Mtr 20",
+        "",
+        "810"
+      ],
+      [
+        "Honeywell",
+        "Hdmi 2M",
+        "Black",
+        "690"
+      ],
+      [
+        "Mi",
+        "6A Hypercharge Cable",
+        "White",
+        "790"
+      ],
+      [
+        "Mi",
+        "Sonic Type-C 20",
+        "White",
+        "615"
+      ],
+      [
+        "Mi",
+        "Usb Cable 12M 2A Fast Charge",
+        "Black",
+        "525"
+      ],
+      [
+        "Mi",
+        "Usb Type C",
+        "Black",
+        "525"
+      ],
+      [
+        "Muvtech",
+        "Rapidpower Usb-C To C 60W 2M",
+        "White",
+        "745"
+      ],
+      [
+        "Muvtech",
+        "Surge 4 In 1 66W",
+        "Grey",
+        "650"
+      ],
+      [
+        "Muvtech",
+        "Surge Usb To Type-C 60W",
+        "Black, Blue, White",
+        "550"
+      ],
+      [
+        "Muvtech",
+        "Surge Usb-C To C 100W",
+        "Black",
+        "550"
+      ],
+      [
+        "Muvtech",
+        "Surge Usb-C To C 60W",
+        "Black, Blue, White",
+        "570"
+      ],
+      [
+        "Muvtech",
+        "Surge Usb-C To Lightning 27W",
+        "Blue",
+        "550"
+      ],
+      [
+        "Neopack",
+        "C To C 60W",
+        "Black",
+        "350"
+      ],
+      [
+        "Neopack",
+        "Duraflex C-To-C 60W",
+        "",
+        "350"
+      ],
+      [
+        "One Plus",
+        "Supervooc Type C To C 1M",
+        "Red",
+        "1155"
+      ],
+      [
+        "One Plus",
+        "Supervooc Usb To Type-C 15M",
+        "Red",
+        "1395"
+      ],
+      [
+        "One Plus",
+        "Supervooc Usb To Type-C 1M",
+        "Red",
+        "1155"
+      ],
+      [
+        "One Plus",
+        "Type C To 35Mm",
+        "Red",
+        "720"
+      ],
+      [
+        "One Plus",
+        "Warp Type-C To Type-C 150Cm",
+        "Red",
+        "1395"
+      ],
+      [
+        "Portronics",
+        "C-Konnect Usb-C Multiport",
+        "White",
+        "1340"
+      ],
+      [
+        "Portronics",
+        "Hdmi 15M Konnect Sync",
+        "Black",
+        "495"
+      ],
+      [
+        "Portronics",
+        "Ikonnect C Pro",
+        "",
+        "495"
+      ],
+      [
+        "Portronics",
+        "Ikonnect C Type C To Aux",
+        "Black",
+        "540"
+      ],
+      [
+        "Portronics",
+        "Konnect 4 In 1",
+        "Black",
+        "570"
+      ],
+      [
+        "Portronics",
+        "Konnect A Plus Type C To C 100W",
+        "Black",
+        "670"
+      ],
+      [
+        "Portronics",
+        "Konnect A Trio",
+        "Black",
+        "505"
+      ],
+      [
+        "Portronics",
+        "Konnect A Type C",
+        "Black, White",
+        "445"
+      ],
+      [
+        "Portronics",
+        "Konnect B Micro 1M",
+        "Black, White",
+        "425"
+      ],
+      [
+        "Portronics",
+        "Konnect B+ 8 Pin Usb",
+        "Black",
+        "470"
+      ],
+      [
+        "Portronics",
+        "Konnect C Square 65W",
+        "Green",
+        "510"
+      ],
+      [
+        "Portronics",
+        "Konnect Cl Type-C To 8Pin",
+        "Black",
+        "600"
+      ],
+      [
+        "Portronics",
+        "Konnect Dash 2 Type-C 65W",
+        "Red",
+        "500"
+      ],
+      [
+        "Portronics",
+        "Konnect Dash Pro Type-C 65W",
+        "Red",
+        "470"
+      ],
+      [
+        "Portronics",
+        "Konnect L1 C To 8Pin",
+        "Black",
+        "600"
+      ],
+      [
+        "Portronics",
+        "Konnect Link Micro Usb",
+        "Black",
+        "400"
+      ],
+      [
+        "Portronics",
+        "Konnect Recoil Type-C To C",
+        "White",
+        "700"
+      ],
+      [
+        "Portronics",
+        "Konnect Spydr Iso 2Mt",
+        "Black",
+        "500"
+      ],
+      [
+        "Portronics",
+        "Konnect Spydr Type-C 2M",
+        "Black",
+        "485"
+      ],
+      [
+        "Portronics",
+        "Konnect Stream 15M Hdmi 4K",
+        "",
+        "610"
+      ],
+      [
+        "Portronics",
+        "Konnect Stream 3M Hdmi 4K",
+        "",
+        "690"
+      ],
+      [
+        "Portronics",
+        "Konnect Stream 5M",
+        "",
+        "930"
+      ],
+      [
+        "Portronics",
+        "Konnect Vision C 18M Hdmi 4K To Type C",
+        "",
+        "1240"
+      ],
+      [
+        "Portronics",
+        "Konnect X 60W C To C",
+        "Black",
+        "450"
+      ],
+      [
+        "Portronics",
+        "Konnect X Type-C To C 2M",
+        "Black",
+        "490"
+      ],
+      [
+        "Portronics",
+        "Konnect X Type-C To Lightning",
+        "Black",
+        "525"
+      ],
+      [
+        "Portronics",
+        "Konnect X Usb To 8 Pin",
+        "Black",
+        "445"
+      ],
+      [
+        "Portronics",
+        "Konnect X Usb To C",
+        "Black, Red",
+        "470"
+      ],
+      [
+        "Portronics",
+        "Konnect Y Type-C To C",
+        "White",
+        "515"
+      ],
+      [
+        "Portronics",
+        "Mport 52 7 In 1 Type-C Hub",
+        "Black",
+        "1700"
+      ],
+      [
+        "Portronics",
+        "Mport 7 Type-C & Usb 30",
+        "Grey",
+        "940"
+      ],
+      [
+        "Portronics",
+        "Uniconnect Usb Extention",
+        "",
+        "425"
+      ],
+      [
+        "Riversong",
+        "Alpha 02 Type C To C 65W",
+        "Red",
+        "450"
+      ],
+      [
+        "Riversong",
+        "Lotus 03 Fast Usb To Lightning",
+        "White",
+        "475"
+      ],
+      [
+        "Samsung",
+        "Usb Type C",
+        "Black",
+        "790"
+      ],
+      [
+        "Samsung",
+        "Usb Type C To Type C",
+        "Black, White",
+        "850"
+      ],
+      [
+        "Spacething",
+        "Link Aux Audio Usb-C To 35Mm",
+        "",
+        "550"
+      ],
+      [
+        "Spacething",
+        "Link Lightning To 35Mm",
+        "",
+        "550"
+      ],
+      [
+        "Spacething",
+        "Type-C To C 25M 100W",
+        "Black",
+        "800"
+      ],
+      [
+        "Stuffcool",
+        "Alto A To C 65A",
+        "White",
+        "600"
+      ],
+      [
+        "Stuffcool",
+        "Alto C A To C 3Amp",
+        "White",
+        "500"
+      ],
+      [
+        "Stuffcool",
+        "Alto C To C 3Amp",
+        "White",
+        "545"
+      ],
+      [
+        "Stuffcool",
+        "Alto C To C 5A Pd 100W",
+        "White",
+        "700"
+      ],
+      [
+        "Stuffcool",
+        "Alto C-L Pd 20W Pd",
+        "White",
+        "700"
+      ],
+      [
+        "Stuffcool",
+        "Blitz Usb A To 8Pin",
+        "",
+        "575"
+      ],
+      [
+        "Stuffcool",
+        "Celer M Micro 24Amp",
+        "White",
+        "415"
+      ],
+      [
+        "Stuffcool",
+        "Duplo 140W Type-C To Dual C 140W",
+        "Black",
+        "1300"
+      ],
+      [
+        "Stuffcool",
+        "Iynk C-C 60W 1M",
+        "Blue, Orange, Silver",
+        "880"
+      ],
+      [
+        "Stuffcool",
+        "Iynk C-L 30W 1M",
+        "Blue, Orange, Silver",
+        "980"
+      ],
+      [
+        "Stuffcool",
+        "Quad 4 In 1",
+        "Black",
+        "350"
+      ],
+      [
+        "Stuffcool",
+        "Tres 3 In 1 18W",
+        "Black",
+        "650"
+      ],
+      [
+        "Stuffcool",
+        "Tug A-C 65A 65W 12M",
+        "White",
+        "600"
+      ],
+      [
+        "Stuffcool",
+        "Tug A-C 65A 65W 2M",
+        "Grey",
+        "690"
+      ],
+      [
+        "Stuffcool",
+        "Tug C-C 3A 60W 12M",
+        "White",
+        "545"
+      ],
+      [
+        "Stuffcool",
+        "Tug C-C 3A 60W 2M",
+        "Grey",
+        "625"
+      ],
+      [
+        "Stuffcool",
+        "Tug C-C 5A 100W 12M",
+        "White",
+        "700"
+      ],
+      [
+        "Stuffcool",
+        "Tug C-C 5A 100W 2M",
+        "Grey",
+        "800"
+      ],
+      [
+        "Stuffcool",
+        "Tug Quad 4 In 1 15M",
+        "Black",
+        "770"
+      ],
+      [
+        "Stuffcool",
+        "Tug Type C To L",
+        "White",
+        "650"
+      ],
+      [
+        "Stuffcool",
+        "Tug Type C To L 2M",
+        "Grey",
+        "730"
+      ],
+      [
+        "Ultra Prolink",
+        "Hdmi 20 3Mtr",
+        "Black",
+        "750"
+      ],
+      [
+        "Ultra Prolink",
+        "Volo Pd20-C Type-C To C",
+        "Black",
+        "665"
+      ],
+      [
+        "Ultra Prolink",
+        "Zync Lightning",
+        "Black, White",
+        "610"
+      ],
+      [
+        "Vibe",
+        "4 In 1 Metal-401",
+        "Black",
+        "950"
+      ],
+      [
+        "Vibe",
+        "C To C Vi-X3",
+        "Black, White",
+        "530"
+      ],
+      [
+        "Vibe",
+        "Type-C To Lightning Vi-X4",
+        "Black, White",
+        "550"
+      ],
+      [
+        "Vibe",
+        "Usb To C Vi-X2",
+        "Black, White",
+        "495"
+      ],
+      [
+        "Wings",
+        "Power Type-C",
+        "Black, White",
+        "415"
+      ],
+      [
+        "Wings",
+        "Power Type-C 3A",
+        "White",
+        "350"
+      ],
+      [
+        "Wings",
+        "Swift Micro 24A",
+        "Black",
+        "410"
+      ],
+      [
+        "Wings",
+        "Swift Micro Usb 24A",
+        "Black",
+        "350"
+      ],
+      [
+        "Wings",
+        "Turbo Type-C To C 65V",
+        "Black",
+        "480"
+      ],
+      [
+        "Wings",
+        "Volt Iphone 24A",
+        "White",
+        "425"
+      ]
+    ],
+    "Car Charger": [
+      [
+        "Ambrane",
+        "12G 38W Type-C Pd/Usb 30",
+        "Black",
+        "720"
+      ],
+      [
+        "Ambrane",
+        "Acc-56 12W Type-C",
+        "Black",
+        "570"
+      ],
+      [
+        "Ambrane",
+        "Acc-74 12W",
+        "Black",
+        "525"
+      ],
+      [
+        "Ambrane",
+        "C51 Fast Car Charger",
+        "Black",
+        "715"
+      ],
+      [
+        "Neopack",
+        "Turbo 30W Ctoc 1 Mtr",
+        "Black",
+        "950"
+      ],
+      [
+        "Neopack",
+        "Turbo 45W Usb And C",
+        "",
+        "1100"
+      ],
+      [
+        "Neopack",
+        "Turbo 66W Usb And C",
+        "",
+        "1100"
+      ],
+      [
+        "Panasonics",
+        "Car Poower 80W",
+        "Black",
+        "760"
+      ],
+      [
+        "Panasonics",
+        "Car Power 36W",
+        "",
+        "635"
+      ],
+      [
+        "Portronics",
+        "Car Power 30W",
+        "Black",
+        "610"
+      ],
+      [
+        "Portronics",
+        "Car Power Retracto",
+        "Black",
+        "1000"
+      ],
+      [
+        "Portronics",
+        "Car Power View Plus 555W",
+        "Black",
+        "645"
+      ],
+      [
+        "Portronics",
+        "Charge Clamp 2 With Car Holder",
+        "Black",
+        "1270"
+      ],
+      [
+        "Samsung",
+        "Super Fast 20 Dual 25W &15W",
+        "Black",
+        "2150"
+      ],
+      [
+        "Stuffcool",
+        "Atom Plus Cc 45W Pd",
+        "",
+        "1130"
+      ],
+      [
+        "Stuffcool",
+        "Atom Plus Qualco 30+24 18W",
+        "",
+        "930"
+      ],
+      [
+        "Stuffcool",
+        "Ultimus 47 Usb+Type-C",
+        "Black",
+        "1025"
+      ],
+      [
+        "Ultra Prolink",
+        "Mach 38 C To C Pd Cable",
+        "Black",
+        "1005"
+      ],
+      [
+        "Ultra Prolink",
+        "Mach 38 Type-C To Lightning",
+        "Black",
+        "1040"
+      ],
+      [
+        "Ultra Prolink",
+        "Zipkit Dual Usb/Cabel",
+        "Black",
+        "950"
       ]
     ],
     "Charger": [
       [
-        "Samsung",
-        "25W Fast Charger",
+        "Ambrane",
+        "Aerosync 15W Mag-Safe",
+        "White",
+        "1160"
+      ],
+      [
+        "Evm",
+        "Endock 3 In 1 Wireless",
         "Black",
-        "1299"
+        "1300"
+      ],
+      [
+        "Mi",
+        "2A Fast Charger",
+        "Black",
+        "750"
+      ],
+      [
+        "Mi",
+        "Xiaomi 120W Hyper Charger",
+        "White",
+        "3005"
+      ],
+      [
+        "Mi",
+        "Xiaomi 45W Turbo Charger",
+        "Whiite",
+        "1415"
+      ],
+      [
+        "Neopack",
+        "Nano Charger For Apple Watch",
+        "",
+        "1550"
+      ],
+      [
+        "Samsung",
+        "Type C Charger (25W)",
+        "White",
+        "1390"
       ]
     ],
-    "Speaker": [
+    "Tarvel Adaptor": [
       [
-        "JBL",
-        "Flip 6",
+        "Ambrane",
+        "18W Wall Charger",
+        "White",
+        "725"
+      ],
+      [
+        "Ambrane",
+        "20W Wall Charger",
+        "White",
+        "720"
+      ],
+      [
+        "Ambrane",
+        "Ata-03 2500 Universal Adpt",
+        "Black",
+        "960"
+      ],
+      [
+        "Ambrane",
+        "Charging Adapter X20",
+        "",
+        "1080"
+      ],
+      [
+        "Apple",
+        "20W Usb-C Power Adapter",
+        "White",
+        "1900"
+      ],
+      [
+        "Apple",
+        "67W Usb-C",
+        "White",
+        "5340"
+      ],
+      [
+        "Apple",
+        "Dual Usb-C Port 35W",
+        "White",
+        "5340"
+      ],
+      [
+        "Igear",
+        "65W Pd/Usb",
+        "White",
+        "2510"
+      ],
+      [
+        "Igear",
+        "Core 20W Pd/Usb",
+        "White",
+        "925"
+      ],
+      [
+        "Igear",
+        "Core 33 U7Sb And Pd 20W",
+        "",
+        "1320"
+      ],
+      [
+        "Igear",
+        "Core 47W Pd",
+        "White",
+        "1695"
+      ],
+      [
+        "Mi",
+        "120 Watt Hyper Charege",
+        "Whiite",
+        "3005"
+      ],
+      [
+        "Mi",
+        "18W Dual Port Charger",
+        "Black",
+        "880"
+      ],
+      [
+        "Mi",
+        "67W Soniccharge 30 Combo",
+        "White",
+        "2120"
+      ],
+      [
+        "Mi",
+        "Sonic Charger 20 33W",
+        "White",
+        "1235"
+      ],
+      [
+        "Mi",
+        "Xiaomi 225W Fastcharger Combo",
+        "White",
+        "970"
+      ],
+      [
+        "Neopack",
+        "World Traveller Plus 33W",
+        "Black",
+        "2500"
+      ],
+      [
+        "Nothing",
+        "Cmf Power 33W",
+        "White",
+        "1225"
+      ],
+      [
+        "Nothing",
+        "Power 45W",
+        "White",
+        "2475"
+      ],
+      [
+        "One Plus",
+        "Supervooc 80W Power Adpt",
+        "White",
+        "2180"
+      ],
+      [
+        "Plantronics",
+        "Adapto 20B",
+        "Black",
+        "650"
+      ],
+      [
+        "Portronics",
+        "Adapto 20 Lite Pd Type C",
+        "White",
+        "785"
+      ],
+      [
+        "Portronics",
+        "Adapto 20C Pd Type C 20W",
+        "Black",
+        "685"
+      ],
+      [
+        "Portronics",
+        "Adapto 20W Pd Type C",
+        "White",
+        "715"
+      ],
+      [
+        "Portronics",
+        "Adapto 24W Type C",
+        "White",
+        "790"
+      ],
+      [
+        "Portronics",
+        "Adapto 25 Pro Type-C Pd",
+        "White",
+        "800"
+      ],
+      [
+        "Portronics",
+        "Adapto 25 W Type-C",
+        "White",
+        "745"
+      ],
+      [
+        "Portronics",
+        "Adapto 25Plus 25W Type-C",
+        "White",
+        "780"
+      ],
+      [
+        "Portronics",
+        "Adapto 33G 33W Pd Type-C",
+        "White",
+        "1040"
+      ],
+      [
+        "Portronics",
+        "Adapto 35B Usb/Type-C",
+        "White",
+        "860"
+      ],
+      [
+        "Portronics",
+        "Adapto 35G",
+        "White",
+        "875"
+      ],
+      [
+        "Portronics",
+        "Adapto 45 20W Dual Output",
+        "Black, White",
+        "740"
+      ],
+      [
+        "Portronics",
+        "Adapto 45C Gan Tech",
+        "White",
+        "1240"
+      ],
+      [
+        "Portronics",
+        "Adapto 64 30A Type-C Quick",
+        "Black",
+        "635"
+      ],
+      [
+        "Portronics",
+        "Adapto 70 33W",
+        "White",
+        "905"
+      ],
+      [
+        "Portronics",
+        "Juicemate 3 Universal Adpt",
+        "White",
+        "640"
+      ],
+      [
+        "Portronics",
+        "Juicemate Travel Adaptor",
+        "Black",
+        "1175"
+      ],
+      [
+        "Riversong",
+        "Powerkub 12E 15A",
+        "White",
+        "450"
+      ],
+      [
+        "Riversong",
+        "Powerkub 20C 20E Qc Fast Type-C",
+        "White",
+        "620"
+      ],
+      [
+        "Riversong",
+        "Powerkub 30 Pro 27W Type-C",
+        "White",
+        "800"
+      ],
+      [
+        "Riversong",
+        "Powerkub 30L Pro Type-C",
+        "White",
+        "700"
+      ],
+      [
+        "Samsung",
+        "15W Pd Usb-C",
+        "Black, White",
+        "1150"
+      ],
+      [
+        "Samsung",
+        "25W Pd Adapter Usb-C",
+        "Black, White",
+        "1450"
+      ],
+      [
+        "Samsung",
+        "35W Pd Power Adapt Duo",
+        "Black",
+        "2190"
+      ],
+      [
+        "Samsung",
+        "45W Pd Adapter Usb-C",
+        "Black",
+        "2750"
+      ],
+      [
+        "Samsung",
+        "60W Pd Adpt",
+        "Black",
+        "3250"
+      ],
+      [
+        "Samsung",
+        "65W Pd Adpt Trio Usb-C*2,1Usb",
+        "Black",
+        "4175"
+      ],
+      [
+        "Samsung",
+        "Ep-Ta200 15W Fast",
+        "White",
+        "1100"
+      ],
+      [
+        "Samsung",
+        "Fast Charge(15W) Type C With Cable",
+        "Black, White",
+        "1350"
+      ],
+      [
+        "Samsung",
+        "Fast Charge(25W) Type C To C",
+        "Black, White",
+        "2000"
+      ],
+      [
+        "Samsung",
+        "Usb Type C To C 45W 18M",
+        "Black",
+        "3250"
+      ],
+      [
+        "Spacething",
+        "25W Corevolt Type-C",
+        "White",
+        "750"
+      ],
+      [
+        "Spacething",
+        "45W Corevolt Type-C",
+        "Black",
+        "850"
+      ],
+      [
+        "Spacething",
+        "Cube Plus Type-C With Typec To C",
+        "",
+        "850"
+      ],
+      [
+        "Spacething",
+        "Rapid 100W Supervooc",
+        "White",
+        "765"
+      ],
+      [
+        "Spacething",
+        "World Travel 20W Adp",
+        "Black",
+        "1450"
+      ],
+      [
+        "Spacething",
+        "World Travel 35W Adpt",
+        "Black",
+        "1950"
+      ],
+      [
+        "Stuffcool",
+        "Flow 30 Dual Type-C Pd+Usb A",
+        "White",
+        "1000"
+      ],
+      [
+        "Stuffcool",
+        "Neo 45 Pro Type-C/Usb",
+        "White",
+        "1450"
+      ],
+      [
+        "Stuffcool",
+        "Neo 45W Pd Dual Type C",
+        "",
+        "1450"
+      ],
+      [
+        "Stuffcool",
+        "Nova 65 Gan Charger",
+        "White",
+        "2450"
+      ],
+      [
+        "Stuffcool",
+        "Novus 225 Unive Fast Char With A-C 5A Cable",
+        "White",
+        "805"
+      ],
+      [
+        "Stuffcool",
+        "Novus 25W Type-C",
+        "White",
+        "775"
+      ],
+      [
+        "Stuffcool",
+        "Novus 25W Type-C With C To C Cable",
+        "White",
+        "875"
+      ],
+      [
+        "Stuffcool",
+        "Novus 25W Type-C With C To L Cable",
+        "White",
+        "975"
+      ],
+      [
+        "Stuffcool",
+        "Novus 33W Type-C/Usb",
+        "White",
+        "1120"
+      ],
+      [
+        "Stuffcool",
+        "Nuevo 20S 20W Pd",
+        "Blue, White",
+        "645"
+      ],
+      [
+        "Stuffcool",
+        "Numen 45W Type-C",
+        "White",
+        "1350"
+      ],
+      [
+        "Stuffcool",
+        "Pico Type-C 20W",
+        "White",
+        "350"
+      ],
+      [
+        "Stuffcool",
+        "Pico Ultra 33W A+C",
+        "White",
+        "1250"
+      ],
+      [
+        "Stuffcool",
+        "Zeno 30W Type-C Gen With Buit-In Retrac Cable",
+        "White",
+        "1550"
+      ],
+      [
+        "Ultra Prolink",
+        "Boost Pd25",
+        "White",
+        "950"
+      ],
+      [
+        "Wings",
+        "Protect Plus 34A Dual Usb",
+        "White",
+        "515"
+      ],
+      [
+        "Wings",
+        "Velocity 24 A Usb",
+        "White",
+        "470"
+      ]
+    ],
+    "Hard Disks": [
+      [
+        "Samsung",
+        "Portable Ssd T7 1Tb",
+        "Grey",
+        "9965"
+      ],
+      [
+        "Sandisk",
+        "Itb Ssd E30",
+        "Black",
+        "12850"
+      ],
+      [
+        "Seagate",
+        "1 Tb Hdd One Touch",
+        "Black",
+        "6190"
+      ],
+      [
+        "Seagate",
+        "2 Tb Backup+ Slim +",
+        "Black",
+        "7100"
+      ],
+      [
+        "Seagate",
+        "2 Tb Hdd One Touch",
+        "Black",
+        "7430"
+      ],
+      [
+        "Wd",
+        "1Tb My Passport",
+        "",
+        "4775"
+      ],
+      [
+        "Wd",
+        "2 Tb Ext Element",
+        "Black",
+        "7075"
+      ],
+      [
+        "Wd",
+        "2 Tb My Passport",
+        "Black",
+        "6780"
+      ]
+    ],
+    "Head Phones": [
+      [
+        "Audio-Technica",
+        "Ath-102Usb",
+        "Black",
+        "2270"
+      ],
+      [
+        "Audio-Technica",
+        "Ath-M20Xbt",
+        "Black",
+        "6830"
+      ],
+      [
+        "Audio-Technica",
+        "Ath-S220Bt",
+        "Black",
+        "4925"
+      ],
+      [
+        "Boat",
+        "Airdopes 280 Anc",
+        "Active Black, Mint Blue",
+        "1410"
+      ],
+      [
+        "Boat",
+        "Rockerz 400 Bt",
+        "Black",
+        "1270"
+      ],
+      [
+        "Boat",
+        "Rockerz 421",
+        "Sabre Black",
+        "1370"
+      ],
+      [
+        "Boat",
+        "Rockerz 551Anc Bt",
+        "Black",
+        "3300"
+      ],
+      [
+        "Bose",
+        "Quietcomfort Ultra",
+        "Black",
+        "31940"
+      ],
+      [
+        "Fingers",
+        "H500",
+        "Black",
+        "600"
+      ],
+      [
+        "Fingers",
+        "Rock N Roll H2 Bt",
+        "Blackred",
+        "1150"
+      ],
+      [
+        "Infinity",
+        "Wynd 7000 Deep Bass",
+        "Black",
+        "1250"
+      ],
+      [
+        "Jbl",
+        "Quantum 100",
+        "Black",
+        "2480"
+      ],
+      [
+        "Jbl",
+        "Tune 520Bt",
+        "Black, Blue",
+        "3650"
+      ],
+      [
+        "Noise",
+        "Air Clips Ows",
+        "Black, Purple",
+        "3055"
+      ],
+      [
+        "Noise",
+        "Buds N1 Pro",
+        "Beige",
+        "1975"
+      ],
+      [
+        "Noise",
+        "Noise 4",
+        "Teal",
+        "2605"
+      ],
+      [
+        "Noise",
+        "Noise 4 Overhead Wireless",
+        "Beige",
+        "2605"
+      ],
+      [
+        "Noise",
+        "Noise 5 Overhead Wireless",
+        "Whiite",
+        "4865"
+      ],
+      [
+        "Noise",
+        "Noise Buds Marine",
+        "Grey",
+        "2605"
+      ],
+      [
+        "Noise",
+        "Noise Three Truly Wireless",
+        "Blue, Brown",
+        "2155"
+      ],
+      [
+        "Portronics",
+        "Muffs A3",
+        "Black",
+        "1590"
+      ],
+      [
+        "Skullcandy",
+        "Cassette Bt S5Csw-M448",
+        "Black",
+        "2700"
+      ],
+      [
+        "Sony",
+        "Mdrzx110Ap",
+        "Black, White",
+        "1470"
+      ],
+      [
+        "Sony",
+        "Wh-Ch520",
+        "Beige, Black, Blue",
+        "4065"
+      ],
+      [
+        "Sony",
+        "Wh-Ch720N",
+        "Pink",
+        "8350"
+      ]
+    ],
+    "Memory Cards": [
+      [
+        "Sandisk",
+        "128 Gb Ultra 140Mb/S",
+        "",
+        "1230"
+      ],
+      [
+        "Sandisk",
+        "256Gb Ultra",
+        "",
+        "4300"
+      ],
+      [
+        "Sandisk",
+        "32 Gb Ultra 120Mb/S",
+        "",
+        "860"
+      ],
+      [
+        "Sandisk",
+        "32Gb Microsd",
+        "",
+        "650"
+      ],
+      [
+        "Sandisk",
+        "512 Gb",
+        "",
+        "4130"
+      ],
+      [
+        "Sandisk",
+        "64Gb Ultra 140 Mb",
+        "",
+        "815"
+      ]
+    ],
+    "Mic": [
+      [
+        "Digitek",
+        "Dwm-001 Pro",
+        "Black",
+        "1200"
+      ],
+      [
+        "Digitek",
+        "Dwm-002 Pro Lighting",
+        "Black",
+        "1550"
+      ],
+      [
+        "Digitek",
+        "Dwm-006 Pro",
+        "",
+        "1100"
+      ],
+      [
+        "Fingers",
+        "Mic-W5",
+        "Black",
+        "650"
+      ],
+      [
+        "Portronics",
+        "Dash 5 Wireless Microphone 3 In 1 Receiver",
+        "Black",
+        "1905"
+      ],
+      [
+        "Portronics",
+        "Dash7 Wireless Microphone Receiver",
+        "Black",
+        "1040"
+      ],
+      [
+        "Portronics",
+        "Vlogmate 1 Wireless Mic",
+        "Black",
+        "2800"
+      ],
+      [
+        "Portronics",
+        "Vlogmate 3 Wireless Mic",
+        "Black",
+        "2330"
+      ],
+      [
+        "Portronics",
+        "Vlogmate Wireless Mic",
+        "Black",
+        "1930"
+      ]
+    ],
+    "Mouse/Keyboard": [
+      [
+        "Dell",
+        "Wireless Mouse Ms3320",
+        "Black",
+        "1550"
+      ],
+      [
+        "Fingers",
+        "Lil Clicks Bt/Wireless Keyboard",
+        "Black",
+        "1650"
+      ],
+      [
+        "Fingers",
+        "Rgb-Breathe Wired",
+        "Black",
+        "600"
+      ],
+      [
+        "Fingers",
+        "Rgb-Novitrend Wireless",
+        "Black",
+        "950"
+      ],
+      [
+        "Fingers",
+        "Superhit Mouse",
+        "Grey, Royal Blue",
+        "540"
+      ],
+      [
+        "Lenovo",
+        "Mouse 600 Bt Silent",
+        "",
+        "1550"
+      ],
+      [
+        "Logitech",
+        "M170",
+        "Black",
+        "825"
+      ],
+      [
+        "Logitech",
+        "M171",
+        "Black",
+        "830"
+      ],
+      [
+        "Logitech",
+        "M185",
+        "Black",
+        "1125"
+      ],
+      [
+        "Logitech",
+        "M187",
+        "Blh+White",
+        "1300"
+      ],
+      [
+        "Logitech",
+        "M90",
+        "Black",
+        "580"
+      ],
+      [
+        "Logitech",
+        "Mk220 Combo Wireless",
+        "Black",
+        "1400"
+      ],
+      [
+        "Panasonics",
+        "Toad 14 Wireless",
+        "Black",
+        "605"
+      ],
+      [
+        "Portronics",
+        "Bubble Max Bt Keyboard",
+        "Green",
+        "935"
+      ],
+      [
+        "Portronics",
+        "Chicklet Wireless Por973",
+        "Black",
+        "1310"
+      ],
+      [
+        "Portronics",
+        "Key5 Combo",
+        "Black",
+        "1120"
+      ],
+      [
+        "Portronics",
+        "Ki Pad Wired Por-1778",
+        "Black",
+        "685"
+      ],
+      [
+        "Portronics",
+        "Toad 101",
+        "Black",
+        "445"
+      ],
+      [
+        "Portronics",
+        "Toad 102",
+        "White",
+        "465"
+      ],
+      [
+        "Portronics",
+        "Toad 23",
+        "Black",
+        "610"
+      ],
+      [
+        "Portronics",
+        "Toad 27 Wireless",
+        "Green",
+        "640"
+      ],
+      [
+        "Portronics",
+        "Toad 30",
+        "White",
+        "655"
+      ],
+      [
+        "Portronics",
+        "Toad 31 Wireless",
+        "Black, White",
+        "595"
+      ],
+      [
+        "Portronics",
+        "Toad 34",
+        "Black",
+        "580"
+      ],
+      [
+        "Portronics",
+        "Toad 36",
+        "White",
+        "780"
+      ],
+      [
+        "Portronics",
+        "Toad 4 Wireless",
+        "White",
+        "835"
+      ],
+      [
+        "Portronics",
+        "Toad 6 Bt Wireless",
+        "White",
+        "830"
+      ],
+      [
+        "Portronics",
+        "Toad 8",
+        "Red, White",
+        "830"
+      ],
+      [
+        "Portronics",
+        "Toad 9",
+        "Green",
+        "855"
+      ],
+      [
+        "Portronics",
+        "Toad Ii Bt Optical",
+        "Grey",
+        "815"
+      ],
+      [
+        "Portronics",
+        "Toad One 4 In 1 Optical",
+        "Black",
+        "870"
+      ],
+      [
+        "Portronics",
+        "Tord 11 Wireless Por015",
         "Blue",
-        "8999"
+        "645"
+      ]
+    ],
+    "Multi Plug": [
+      [
+        "Mx",
+        "Univer Travel Plug 2731",
+        "",
+        "505"
+      ],
+      [
+        "Mx",
+        "Univer Travel Plug 2731 Usb",
+        "White",
+        "705"
+      ]
+    ],
+    "Otg": [
+      [
+        "Lenyes",
+        "Ax111 Light To Type-C",
+        "",
+        "500"
+      ],
+      [
+        "Lenyes",
+        "Ax118 Type-C To Lightning",
+        "",
+        "500"
+      ],
+      [
+        "Lenyes",
+        "Ax122 Usb To Type-C",
+        "",
+        "530"
+      ]
+    ],
+    "Pen Drives": [
+      [
+        "Digitek",
+        "32Gb 20",
+        "Metel",
+        "650"
+      ],
+      [
+        "Digitek",
+        "64Gb 20",
+        "Metel",
+        "710"
+      ],
+      [
+        "Lexar",
+        "16Gb V40 Usb 20",
+        "",
+        "540"
+      ],
+      [
+        "Sandisk",
+        "128 Gb",
+        "",
+        "1050"
+      ],
+      [
+        "Sandisk",
+        "128Gb Otg For Mobile",
+        "",
+        "1220"
+      ],
+      [
+        "Sandisk",
+        "16 Gb",
+        "",
+        "540"
+      ],
+      [
+        "Sandisk",
+        "256Gb Ultra Curve Usb 32 Gen1",
+        "",
+        "1660"
+      ],
+      [
+        "Sandisk",
+        "256Gb Ultra Usb 30",
+        "Black",
+        "1900"
+      ],
+      [
+        "Sandisk",
+        "32 Gb",
+        "",
+        "660"
+      ],
+      [
+        "Sandisk",
+        "64 Gb",
+        "Black",
+        "740"
+      ],
+      [
+        "Sandisk",
+        "64Gb Ixpand Flash Drive",
+        "",
+        "2205"
+      ],
+      [
+        "Sandisk",
+        "Otg 128Gb Type C",
+        "Black, Blue",
+        "1460"
+      ],
+      [
+        "Sandisk",
+        "Otg 128Gb Type C Luxe",
+        "Silver",
+        "1390"
+      ],
+      [
+        "Sandisk",
+        "Otg 256Gb Type C",
+        "Black, Blue",
+        "2090"
+      ],
+      [
+        "Sandisk",
+        "Otg 30 128Gb",
+        "",
+        "1170"
+      ],
+      [
+        "Sandisk",
+        "Otg 32Gb Type C",
+        "",
+        "910"
+      ],
+      [
+        "Sandisk",
+        "Otg 64Gb Type C",
+        "",
+        "1120"
+      ]
+    ],
+    "Portable Charger": [
+      [
+        "Ambrane",
+        "Aerosync Pb 10000Mah",
+        "White",
+        "2315"
+      ],
+      [
+        "Ambrane",
+        "Aerosync Pb Prime 10000Mah Mag-Safe",
+        "Blue, Grey, Orange, Titanium",
+        "2100"
+      ],
+      [
+        "Ambrane",
+        "Aerosync Pb21 10000Mah",
+        "",
+        "1745"
+      ],
+      [
+        "Ambrane",
+        "Aerosync Pb5S 5000Mah Mag-Safe",
+        "Silver",
+        "1500"
+      ],
+      [
+        "Ambrane",
+        "Ambrane Line 10",
+        "Black, Purple",
+        "1295"
+      ],
+      [
+        "Ambrane",
+        "Rio 10000 Mah",
+        "Grey",
+        "1520"
+      ],
+      [
+        "Evm",
+        "Encase Mini 10000Mah",
+        "Black, White",
+        "1220"
+      ],
+      [
+        "Mi",
+        "10000 Mah Mi Power Bank 3I",
+        "Black, Blue",
+        "1515"
+      ],
+      [
+        "Mi",
+        "10000 Mah Mi Power Bank 4I",
+        "Black, Green, Purple",
+        "1515"
+      ],
+      [
+        "Mi",
+        "10000 Mah Pocket Power Bank Pro",
+        "Black, Blue, Maroon",
+        "1875"
+      ],
+      [
+        "Mi",
+        "20000 3I Mah",
+        "Black",
+        "2280"
+      ],
+      [
+        "Mi",
+        "Boost Pro 30000Mah 18W",
+        "Black",
+        "3495"
+      ],
+      [
+        "Mi",
+        "Hypersonic 20000Mah 50W",
+        "Black",
+        "3940"
+      ],
+      [
+        "Mi",
+        "Redmi 10000Mah 10W Fast",
+        "Black, White",
+        "1335"
+      ],
+      [
+        "Mi",
+        "Redmi 20000Mah",
+        "Black",
+        "2185"
+      ],
+      [
+        "Mi",
+        "Ultra Slim Power Bank 4900Mah",
+        "Sp.Grey",
+        "2145"
+      ],
+      [
+        "Mi",
+        "Xiaomi Power Bank 4I 33W 20000",
+        "Black, Blue, Green",
+        "2325"
+      ],
+      [
+        "Mi",
+        "Xiaomi Wireless 10000Mah",
+        "Black",
+        "2595"
+      ],
+      [
+        "Muvtech",
+        "Aeroslim 5000Mah Magsafe",
+        "Gold, Orange",
+        "1530"
+      ],
+      [
+        "Muvtech",
+        "Airmag Mini Lite 5000Mah",
+        "Blue, Grey",
+        "2350"
+      ],
+      [
+        "Muvtech",
+        "Mini Tank 10000Mah",
+        "Black",
+        "1350"
+      ],
+      [
+        "Muvtech",
+        "Pocket Link 10000Mah",
+        "Black",
+        "1700"
+      ],
+      [
+        "Muvtech",
+        "Slimpro 10000Mah 15W Wireless",
+        "Desert Titanium",
+        "2250"
+      ],
+      [
+        "Neopack",
+        "Bolt 10Kmah 20W",
+        "Black, Blue, Grey",
+        "1750"
+      ],
+      [
+        "Plantronics",
+        "Luxcell C 10000 Mah",
+        "Black",
+        "1030"
+      ],
+      [
+        "Portronics",
+        "Aero 65W 20Kmah",
+        "Black",
+        "2135"
+      ],
+      [
+        "Portronics",
+        "Ampbox 10K 225W 10000Mah",
+        "Black",
+        "1420"
+      ],
+      [
+        "Portronics",
+        "Aqua 65 65W 20000Mah",
+        "Black",
+        "2315"
+      ],
+      [
+        "Portronics",
+        "Boosty 5K 20W",
+        "Black",
+        "2070"
+      ],
+      [
+        "Portronics",
+        "Luxcell 10K 225W Fast",
+        "Ivory",
+        "1210"
+      ],
+      [
+        "Portronics",
+        "Luxcell B 225W Fast 10000Mah",
+        "Black, Blue, Yellow",
+        "1010"
+      ],
+      [
+        "Portronics",
+        "Luxcell Bind 225W 10K",
+        "Blue",
+        "1350"
+      ],
+      [
+        "Portronics",
+        "Luxcell Bind Mini 225W 10K",
+        "Black",
+        "1315"
+      ],
+      [
+        "Portronics",
+        "Luxcell Bind Mini 225W 20K",
+        "Black",
+        "1725"
+      ],
+      [
+        "Portronics",
+        "Luxcell Magclick 10K",
+        "",
+        "1615"
+      ],
+      [
+        "Portronics",
+        "Luxcell Magclick 5K",
+        "Grey",
+        "1460"
+      ],
+      [
+        "Portronics",
+        "Luxcell Mini 10K 225W",
+        "Black, Green, Yellow",
+        "1295"
+      ],
+      [
+        "Portronics",
+        "Luxcell Mini 20K 225W",
+        "Balck, Black, Yellow",
+        "1845"
+      ],
+      [
+        "Portronics",
+        "Luxcell Stride 10K",
+        "Black",
+        "1080"
+      ],
+      [
+        "Portronics",
+        "Luxcell Uno 10K",
+        "Black",
+        "1010"
+      ],
+      [
+        "Portronics",
+        "Luxcell Wireless Mini 10K 225W",
+        "Black, Blue, Yellow",
+        "1680"
+      ],
+      [
+        "Portronics",
+        "Power D 20K 225A 20000Mah",
+        "Black",
+        "1680"
+      ],
+      [
+        "Portronics",
+        "Power E10K 24A 10000Mah",
+        "Black",
+        "960"
+      ],
+      [
+        "Portronics",
+        "Power M 20K",
+        "Black",
+        "2000"
+      ],
+      [
+        "Portronics",
+        "Power Pro 10K",
+        "White",
+        "960"
+      ],
+      [
+        "Portronics",
+        "Revvo 10000 Mah",
+        "Black, Mocha",
+        "1615"
+      ],
+      [
+        "Portronics",
+        "Zapcell 10K Mah",
+        "Black",
+        "1420"
+      ],
+      [
+        "Reverb",
+        "Voltedge 5000Mah",
+        "Champagne, Grey",
+        "1445"
+      ],
+      [
+        "Samsung",
+        "10000 Mah 25W Dual Port Pd",
+        "Beige, White",
+        "3250"
+      ],
+      [
+        "Spacething",
+        "Luzren 10000Mah Wirless 6 In1",
+        "White",
+        "2650"
+      ],
+      [
+        "Stuffcool",
+        "10000 Mah Magnetic Wireless",
+        "Blue, White",
+        "3350"
+      ],
+      [
+        "Stuffcool",
+        "Alum 10000Mah Wireles",
+        "Silver",
+        "2850"
+      ],
+      [
+        "Stuffcool",
+        "Aura 10000Mah Magnetic",
+        "Gold",
+        "2350"
+      ],
+      [
+        "Stuffcool",
+        "Click 10K 15W Wireless",
+        "Blue, Orange, Whiite",
+        "2450"
+      ],
+      [
+        "Stuffcool",
+        "Click 20K 15W Wireless",
+        "Gold",
+        "2825"
+      ],
+      [
+        "Stuffcool",
+        "Click Plus 10000Mah",
+        "Black, White",
+        "3150"
+      ],
+      [
+        "Stuffcool",
+        "Giga 65W 20000Mah",
+        "Black",
+        "3250"
+      ],
+      [
+        "Stuffcool",
+        "Lucid Plus 10K 15W Wireless",
+        "",
+        "2250"
+      ],
+      [
+        "Stuffcool",
+        "Major Plus 225W 10000Mah",
+        "Black",
+        "350"
+      ],
+      [
+        "Stuffcool",
+        "Major Plus 225W 20000Mah",
+        "Black",
+        "1650"
+      ],
+      [
+        "Stuffcool",
+        "Palm",
+        "Purple",
+        "2030"
+      ],
+      [
+        "Stuffcool",
+        "Plam 10000 Mah",
+        "Yellow",
+        "2030"
+      ],
+      [
+        "Stuffcool",
+        "Roam 10000 Mah 225W",
+        "White",
+        "1330"
+      ],
+      [
+        "Stuffcool",
+        "Roam 20000 Mah 225W",
+        "White",
+        "1750"
+      ],
+      [
+        "Urban",
+        "10000Mah Mini Volt 35W",
+        "Black",
+        "1970"
+      ],
+      [
+        "Urban",
+        "10000Mah Stand Pro",
+        "Blue",
+        "1880"
+      ],
+      [
+        "Urban",
+        "20000Mah 35W Ultra Compact",
+        "Black",
+        "1665"
+      ],
+      [
+        "Wings",
+        "Hyper Charge 10000Mah",
+        "Black",
+        "1230"
+      ],
+      [
+        "Wings",
+        "Powerboost 10000Mah",
+        "Black",
+        "990"
+      ]
+    ],
+    "Smart Watch": [
+      [
+        "Apple",
+        "All Model Available",
+        "",
+        "Inquire"
+      ],
+      [
+        "Boat",
+        "Boat Wanderer",
+        "Aqua",
+        "5395"
+      ],
+      [
+        "Boat",
+        "Enigma R32",
+        "Dimond",
+        "3100"
+      ],
+      [
+        "Boat",
+        "Watch Flash",
+        "Galaxy Blue",
+        "1475"
+      ],
+      [
+        "Boat",
+        "Wave Arcade",
+        "Active Black, Blue, Cool Blue, Cool Grey, Mint Green",
+        "1540"
+      ],
+      [
+        "Boat",
+        "Wave Astra",
+        "Black Metal, Olive Green, Silver Metal",
+        "1770"
+      ],
+      [
+        "Boat",
+        "Wave Beat Call",
+        "Blue, Cherry Blossom, Grey",
+        "1735"
+      ],
+      [
+        "Boat",
+        "Wave Cosmos Max",
+        "Black",
+        "2100"
+      ],
+      [
+        "Boat",
+        "Wave Glory",
+        "Black, Royal Orange",
+        "2400"
+      ],
+      [
+        "Boat",
+        "Wave Lynk Voice",
+        "Black, Grey",
+        "2060"
+      ],
+      [
+        "Boat",
+        "Wave Stride Voice",
+        "Black, Blue, Cherry Blossom",
+        "2060"
+      ],
+      [
+        "Boat",
+        "Wave Voice",
+        "Black, Green",
+        "2015"
+      ],
+      [
+        "Bsw004",
+        "Bsw004 Talk",
+        "Grey",
+        "355"
+      ],
+      [
+        "Fire Bolt",
+        "Bsw025 Ninja Call 2",
+        "Black",
+        "1730"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw0037 Dazzel Plus",
+        "Beige, Black",
+        "1680"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw022 Ninja 2 Max",
+        "Rose Gold",
+        "1360"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw039 Ninja Calling Pro",
+        "Pink",
+        "1430"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw046 Visionary",
+        "Champion Gold",
+        "1800"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw052 Hulk Bt Calling",
+        "Blue",
+        "1900"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw053 Ninja Call Pro Plus",
+        "Pink",
+        "1440"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw063 Ninja Fit",
+        "Beige, Blue",
+        "1550"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw068 Jaguar",
+        "Green",
+        "2340"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw072 Gladiator",
+        "Light Gold",
+        "1800"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw081 Eclipse",
+        "Black",
+        "3350"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw090 Rebel",
+        "Olive",
+        "1800"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw093 Rocket",
+        "Black",
+        "2600"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw093 Rocket Bt Calling",
+        "Gold Pink",
+        "2600"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw100 Phoenix Pro",
+        "Pink",
+        "1475"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw101 Harricane Pro",
+        "Gold Pink",
+        "1950"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw102 Legend",
+        "Gold, Pink",
+        "1475"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw115 Edge",
+        "Red",
+        "2150"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw124 Cyclone",
+        "Orange, Yellow",
+        "2150"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw138 Phoenix Ultra",
+        "Gold, Rainbow Ss",
+        "1775"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw140 Solaris",
+        "Pink Ss",
+        "2150"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw156 Ninja Fit Pro",
+        "Green",
+        "1600"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw159 King Amoled",
+        "Gold Ss",
+        "2150"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw162 Ninja Pro Max Ultra",
+        "Olive",
+        "1600"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw165 Starlight",
+        "Rose Gold",
+        "1775"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw196 Phoenix Amoled",
+        "Gold",
+        "1975"
+      ],
+      [
+        "Fire Boltt",
+        "Bsw203 Oracle Eclipse Flex",
+        "Black",
+        "5000"
+      ],
+      [
+        "Fire Boltt",
+        "Rebel Bsw090",
+        "Pink",
+        "1800"
+      ],
+      [
+        "Fitbit",
+        "Varsa 3",
+        "Olive/Soft Gold",
+        "14850"
+      ],
+      [
+        "Mi",
+        "Redmi Watch 3 Active Bt Calling",
+        "Black, Grey",
+        "3045"
+      ],
+      [
+        "Mi",
+        "Redmi Watch 5 Active",
+        "Midnight Black",
+        "3045"
+      ],
+      [
+        "Mi",
+        "Redmi Watch 5 Lite",
+        "Black",
+        "3945"
+      ],
+      [
+        "Mi",
+        "Redmi Watch Move",
+        "Black Drift, Blue Blaze, Gold Rush, Silver Sprint",
+        "450"
+      ],
+      [
+        "Noise",
+        "Caliber Buzz",
+        "Black, Blue",
+        "1670"
+      ],
+      [
+        "Noise",
+        "Colorfit Caliber Max",
+        "Deep Wine",
+        "1635"
+      ],
+      [
+        "Noise",
+        "Colorfit Explorer",
+        "Blue, Captain Duo, Wonder Pink",
+        "5315"
+      ],
+      [
+        "Noise",
+        "Colorfit Giga",
+        "Misty Grey",
+        "1685"
+      ],
+      [
+        "Noise",
+        "Colorfit Icon 2",
+        "Ro.Gold",
+        "1730"
+      ],
+      [
+        "Noise",
+        "Colorfit Icon Arc",
+        "Jet Black, Silver Grey, Space Blue",
+        "1705"
+      ],
+      [
+        "Noise",
+        "Colorfit Pro 4",
+        "Midnight Blue, Teal Blue",
+        "3035"
+      ],
+      [
+        "Noise",
+        "Colorfit Pro 5",
+        "Starlight Gold",
+        "3510"
+      ],
+      [
+        "Noise",
+        "Colorfit Pulse 2",
+        "Olive Green",
+        "1830"
+      ],
+      [
+        "Noise",
+        "Colorfit Pulse 2 Max",
+        "Green, Jet Black, Midnight Blue, Rose Pink",
+        "1430"
+      ],
+      [
+        "Noise",
+        "Colorfit Pulse 2 Pro",
+        "Black, Metal Black, Silver",
+        "1885"
+      ],
+      [
+        "Noise",
+        "Colorfit Pulse Buzz",
+        "Blue, Rose Pink",
+        "2140"
+      ],
+      [
+        "Noise",
+        "Colorfit Pulse Go Buzz",
+        "Midnight Blue, Rose Pink",
+        "2140"
+      ],
+      [
+        "Noise",
+        "Colorfit Pulse Grande",
+        "Champagne Grey",
+        "1750"
+      ],
+      [
+        "Noise",
+        "Colorfit Pulse Hyper",
+        "Blue, Jet Black",
+        "1795"
+      ],
+      [
+        "Noise",
+        "Colorfit Qube 2",
+        "Rose Pink",
+        "1670"
+      ],
+      [
+        "Noise",
+        "Colorfit Trill",
+        "Black",
+        "3035"
+      ],
+      [
+        "Noise",
+        "Colorfit Ultra 2 Buzz",
+        "Black",
+        "3035"
+      ],
+      [
+        "Noise",
+        "Junior Explorer 2",
+        "Frost Pop, Power Pixel",
+        "5770"
+      ],
+      [
+        "Noise",
+        "Noise Fit Mettle Elite Edi",
+        "Elite Black",
+        "2330"
+      ],
+      [
+        "Noise",
+        "Noise Fit Twist Go",
+        "Elite Black, Gold Link, Gold Wine, Rose Pink",
+        "2065"
+      ],
+      [
+        "Noise",
+        "Noise Fit Twist Go Mesh",
+        "Silver",
+        "1885"
+      ],
+      [
+        "Noise",
+        "Noise Scout",
+        "Black, Ninja Green, Purple",
+        "5725"
+      ],
+      [
+        "Noise",
+        "Noisefit Active 2",
+        "Midnight Black, Vintage Brown",
+        "2530"
+      ],
+      [
+        "Noise",
+        "Noisefit Curve",
+        "Vintage Brown",
+        "1965"
+      ],
+      [
+        "Noise",
+        "Noisefit Diva",
+        "Gold Link",
+        "3510"
+      ],
+      [
+        "Noise",
+        "Noisefit Force",
+        "Jet Black, Misty Grey",
+        "3035"
+      ],
+      [
+        "Noise",
+        "Noisefit Halo 2",
+        "Black",
+        "4415"
+      ],
+      [
+        "Noise",
+        "Noisefit Mettle",
+        "Silver",
+        "2330"
+      ],
+      [
+        "Noise",
+        "Noisefit Twist",
+        "Jet Black",
+        "2140"
+      ],
+      [
+        "Noise",
+        "Noisefit Vortex Plus",
+        "Brown, Gold Pink, Jet Black",
+        "2610"
+      ],
+      [
+        "Noise",
+        "Noisefit Vortex Plus Elite Edi",
+        "Silver",
+        "2605"
+      ],
+      [
+        "Pebble",
+        "Cosmos Engage Pfb37",
+        "Black, Blue, Orange, Starlight",
+        "3750"
+      ],
+      [
+        "Pebble",
+        "Orion Pfb04 Calling",
+        "Midnight Gold",
+        "3350"
+      ],
+      [
+        "Pebble",
+        "Venus Pfb24 Calling",
+        "M Gold, Tan Gold",
+        "3850"
+      ],
+      [
+        "Realme",
+        "Realme Watch S2",
+        "Black, Silver",
+        "4750"
+      ],
+      [
+        "Riversong",
+        "Motive 8 Ultra Bt Calling",
+        "Orange",
+        "3050"
+      ],
+      [
+        "Samsung",
+        "All Model Available",
+        "",
+        "Inquire"
+      ],
+      [
+        "Titan",
+        "Fastrack Jupiter R1",
+        "Black, Blue",
+        "1850"
+      ],
+      [
+        "Titan",
+        "Fastrack Jupiter R2",
+        "Black & Black, Blue, Coper & Teal, Dull Gd & Wine Red",
+        "1875"
+      ],
+      [
+        "Titan",
+        "Fastrack Jupiter Retro",
+        "Metal Black",
+        "2350"
+      ],
+      [
+        "Titan",
+        "Fastrack Jupiter S1",
+        "Black, Blue, Blue & Blue, Dull Gd & Beige, Dull Gd & Wine Red",
+        "1750"
+      ],
+      [
+        "Titan",
+        "Fastrack Vox Plus",
+        "Gun Grey",
+        "2250"
+      ],
+      [
+        "Wings",
+        "Opal",
+        "Black, Blue",
+        "1650"
+      ],
+      [
+        "Wings",
+        "Strive 200",
+        "Black, Grey",
+        "1080"
+      ]
+    ],
+    "Speakers": [
+      [
+        "Amazon",
+        "Echo Dot 5Th Gen",
+        "Black, Blue",
+        "5300"
+      ],
+      [
+        "Amazon",
+        "Echo Pop",
+        "Black",
+        "4850"
+      ],
+      [
+        "Amazon",
+        "Echo Show 5",
+        "Black",
+        "7550"
+      ],
+      [
+        "Amazon",
+        "Echo Show 8 2Nd Gen",
+        "Black",
+        "9850"
+      ],
+      [
+        "Ambrane",
+        "Minipod Bt Spe",
+        "Green",
+        "1015"
+      ],
+      [
+        "Fingers",
+        "Brownie 2 Bt Speaker",
+        "Brown",
+        "900"
+      ],
+      [
+        "Fingers",
+        "Swag 5",
+        "Black",
+        "1550"
+      ],
+      [
+        "Jbl",
+        "Clip 4",
+        "Black, Blue",
+        "4260"
+      ],
+      [
+        "Jbl",
+        "Go 3 Eco",
+        "Blue",
+        "2950"
+      ],
+      [
+        "Marshall",
+        "Woburn 3 Ms-Wbrn3-Blk",
+        "Black",
+        "45150"
+      ],
+      [
+        "Mi",
+        "Outdoor Bt Speaker",
+        "Black",
+        "1350"
+      ],
+      [
+        "Muvtech",
+        "Jambox Bt 10W",
+        "Blue, Green",
+        "1225"
+      ],
+      [
+        "Portronics",
+        "Apollo 30",
+        "Black",
+        "2210"
+      ],
+      [
+        "Portronics",
+        "Apollo One 20W With Karaoke Mic",
+        "Black",
+        "1590"
+      ],
+      [
+        "Portronics",
+        "Bounce 2",
+        "Black, Blue",
+        "1145"
+      ],
+      [
+        "Portronics",
+        "Dash 3 16W",
+        "Black",
+        "2550"
+      ],
+      [
+        "Portronics",
+        "Nadya 6W",
+        "Black",
+        "1160"
+      ],
+      [
+        "Portronics",
+        "Nova 40W",
+        "Black",
+        "2660"
+      ],
+      [
+        "Portronics",
+        "Nugget 3W Mini",
+        "Black",
+        "765"
+      ],
+      [
+        "Portronics",
+        "Pure Sound 107 Soundbar 200W",
+        "Black",
+        "5850"
+      ],
+      [
+        "Portronics",
+        "Resound 5W With Fm",
+        "Black, Blue",
+        "1240"
+      ],
+      [
+        "Portronics",
+        "Sound Drum 1",
+        "Black, Blue",
+        "1375"
+      ],
+      [
+        "Portronics",
+        "Sound Drum Bt 10W",
+        "Blue",
+        "1895"
+      ],
+      [
+        "Portronics",
+        "Sounddrum P 20W",
+        "Black, Blue",
+        "2240"
+      ],
+      [
+        "Portronics",
+        "Soundpot Pro 20W",
+        "Black",
+        "1970"
+      ],
+      [
+        "Realme",
+        "Bt Speaker 15 Pro Prebook",
+        "",
+        "350"
+      ]
+    ],
+    "Telephones": [
+      [
+        "Beetel",
+        "B 11",
+        "Black, Blue, Warm Grey",
+        "895"
+      ],
+      [
+        "Beetel",
+        "B 17",
+        "Black",
+        "910"
+      ],
+      [
+        "Beetel",
+        "B25",
+        "Black, Blue, Wa/Grey",
+        "915"
+      ],
+      [
+        "Beetel",
+        "F1 K",
+        "Black",
+        "2750"
+      ],
+      [
+        "Beetel",
+        "G30",
+        "Black",
+        "1300"
+      ],
+      [
+        "Beetel",
+        "H27",
+        "Black",
+        "1450"
+      ],
+      [
+        "Beetel",
+        "M500",
+        "Black",
+        "1345"
+      ],
+      [
+        "Beetel",
+        "M51",
+        "Black, Red",
+        "1150"
+      ],
+      [
+        "Beetel",
+        "M51 Plus",
+        "Black",
+        "1150"
+      ],
+      [
+        "Motorola",
+        "Cd4011",
+        "Silver",
+        "2950"
+      ],
+      [
+        "Panasinic",
+        "Kx-Tg 3811Bx Dual",
+        "Black",
+        "4750"
+      ],
+      [
+        "Panasonic",
+        "Kx-T2378Mxw",
+        "White",
+        "4750"
+      ],
+      [
+        "Panasonic",
+        "Kx-Tg3611Sx",
+        "Black, Metalik Silver, White",
+        "2900"
+      ],
+      [
+        "Panasonic",
+        "Kx-Tg3711Sxb",
+        "Black",
+        "3100"
+      ],
+      [
+        "Panasonic",
+        "Kx-Tg3711Sxn",
+        "Silver",
+        "3100"
+      ],
+      [
+        "Panasonic",
+        "Kx-Tg3712Sx",
+        "Black, Silver",
+        "4600"
+      ],
+      [
+        "Panasonic",
+        "Kx-Tg3721Sx",
+        "Black",
+        "4050"
+      ],
+      [
+        "Panasonic",
+        "Kx-Tg3821Sx",
+        "Black",
+        "6450"
+      ],
+      [
+        "Panasonic",
+        "Kx-Ts400Sx",
+        "White",
+        "840"
+      ],
+      [
+        "Panasonic",
+        "Kx-Ts401Sx",
+        "Black",
+        "1225"
+      ],
+      [
+        "Panasonic",
+        "Kx-Tsc62Sxw",
+        "",
+        "1800"
+      ]
+    ],
+    "Tripod": [
+      [
+        "Digitek",
+        "Dtr-555 Ss",
+        "",
+        "1550"
+      ],
+      [
+        "Digitek",
+        "Lw-Dtr480",
+        "",
+        "1300"
+      ]
+    ],
+    "Wireless Charger": [
+      [
+        "Ambrane",
+        "Aerosync Trio 3In1",
+        "Black",
+        "1750"
+      ],
+      [
+        "Ambrane",
+        "Powerpod Pro 15W",
+        "Black",
+        "1615"
+      ],
+      [
+        "Neopack",
+        "Icemag 3In1",
+        "Black",
+        "3200"
+      ],
+      [
+        "Neopack",
+        "Magleap Trio 3In1 225W",
+        "",
+        "3000"
+      ],
+      [
+        "Portronics",
+        "Bella 15W 3 In 1",
+        "Black",
+        "2080"
+      ],
+      [
+        "Portronics",
+        "Freedom 15 Plus 15W",
+        "Silver",
+        "1155"
+      ],
+      [
+        "Portronics",
+        "Freedom 4S 15W",
+        "Black",
+        "1550"
+      ],
+      [
+        "Portronics",
+        "Freedom 5 15W",
+        "Black",
+        "1020"
+      ],
+      [
+        "Stuffcool",
+        "Rover 3 In 1 Fodable Magnetic",
+        "Grey",
+        "3300"
+      ],
+      [
+        "Stuffcool",
+        "Stack 3 In 1 Foldable Magnetic",
+        "White",
+        "3300"
+      ],
+      [
+        "Stuffcool",
+        "Wc450",
+        "White",
+        "3300"
       ]
     ]
   }
